@@ -1,0 +1,5 @@
+{
+  "version": 38,
+  "server": "http://54.180.1.95:5000/api",
+  "content": "https://twice-ar.s3.ap-northeast-2.amazonaws.com/ar_app_data/ar_data.json"
+}

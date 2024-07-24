@@ -1,0 +1,412 @@
+{
+  "appSettings": {
+    "webViewUrl-": "https://m.vlive.tv/product/ds00u00u00000204"
+  },
+  "storageUrl": "https://photoar1.s3.ap-northeast-2.amazonaws.com/packages",
+  "explorePackages": [
+    "stayc_01",
+    "yena_02",
+    "ajw_01",
+    "yena_01"
+  ],
+  "shopPackages": [
+    "theboyz_02",
+    "stayc_01",
+    "yena_02",
+    "ajw_01",
+    "yena_01",
+    "onandoff_01",
+    "day6_01",
+    "txt_01",
+    "iu_05"
+  ],
+  "packages": [
+    {
+      "name": "stayc_01",
+      "version": 1,
+      "updatedAt": "2000-01-01 23:59:59",
+      "packageImage": "stayc_01.png",
+      "title": "YOUNG-LUV.COM",
+      "artist": "STAYC(스테이씨)",
+      "exploreDesc": "STAYC(스테이씨)\nYOUNG-LUV.COM\nHigh Up Entertainment",
+      "arImageExtension": "png",
+      "cardImageExtension": "jpg",
+      "videoShape": {
+        "shape": 0,
+        "shapeOptions": 0,
+        "scale": 1.03,
+        "offsetX": 0,
+        "width": 0.06503906,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "stayc_01_01"
+        },
+        {
+          "name": "stayc_01_02"
+        },
+        {
+          "name": "stayc_01_03"
+        },
+        {
+          "name": "stayc_01_04"
+        },
+        {
+          "name": "stayc_01_05"
+        },
+        {
+          "name": "stayc_01_06"
+        }
+      ],
+      "combos": [
+        {
+          "file": "stayc_01_c_123",
+          "cards": [
+            "stayc_01_01",
+            "stayc_01_02",
+            "stayc_01_03"
+          ]
+        },
+        {
+          "file": "stayc_01_c_456",
+          "cards": [
+            "stayc_01_04",
+            "stayc_01_05",
+            "stayc_01_06"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "yena_02",
+      "version": 1,
+      "packageImage": "yena_02.jpg",
+      "title": "소녀의 세계 Season 2",
+      "artist": "최예나",
+      "exploreDesc": "최예나\n소녀의 세계 Season 2\n위에화엔터테인먼트",
+      "arImageExtension": "png",
+      "cardImageExtension": "jpg",
+      "videoShape": {
+        "shape": 0,
+        "shapeOptions": 0,
+        "scale": 1.03,
+        "width": 0.06660157,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "yena_02_03"
+        },
+        {
+          "name": "yena_02_04"
+        }
+      ]
+    },
+    {
+      "name": "yena_01",
+      "version": 1,
+      "packageImage": "yena_01.jpg",
+      "title": "예나는 동물탐정",
+      "artist": "최예나",
+      "exploreDesc": "최예나\n예나는 동물탐정\n위에화엔터테인먼트",
+      "arImageExtension": "png",
+      "cardImageExtension": "jpg",
+      "videoShape": {
+        "shape": 0,
+        "shapeOptions": 0,
+        "scale": 1.03,
+        "width": 0.06660157,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "yena_01_01"
+        },
+        {
+          "name": "yena_01_02"
+        }
+      ],
+      "combos": [
+        {
+          "file": "yena_01_01x03",
+          "cards": [
+            "yena_01_01",
+            "yena_02_03"
+          ]
+        },
+        {
+          "file": "yena_01_02x04",
+          "cards": [
+            "yena_01_02",
+            "yena_02_04"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ajw_01",
+      "version": 1,
+      "packageImage": "ajw_01.jpg",
+      "title": "Dear Forever 2022",
+      "artist": "안재욱(AHN JAE WOOK)",
+      "exploreDesc": "안재욱(AHN JAE WOOK)\nDear Forever 2022\nMembership app of the AHN JAE WOOK's official fan club FOREVER",
+      "arImageExtension": "png",
+      "cardImageExtension": "jpg",
+      "videoShape": {
+        "shape": 0,
+        "shapeOptions": 0,
+        "scale": 1.03,
+        "width": 0.06699219,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "ajw_01_01"
+        },
+        {
+          "name": "ajw_01_02",
+          "videoShape": {
+            "width": 0.05634766
+          }
+        }
+      ]
+    },
+    {
+      "name": "onandoff_01",
+      "version": 1,
+      "updatedAt": "2000-01-01 23:59:59",
+      "packageImage": "onandoff_01.jpg",
+      "title": "Happy Twice & Once Day",
+      "artist": "On & Off",
+      "exploreDesc": "온앤오프 (Twice)\nHappy Twice & Once Day\nJYP",
+      "arImageExtension": "jpg",
+      "cardImageExtension": "jpg",
+      "hasLowVideos": false,
+      "videoShape": {
+        "shape": 0,
+        "shapeOptions": 3,
+        "scale": 1.03,
+        "offsetX": 0,
+        "width": 0.06445313,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "onandoff_01_01"
+        },
+        {
+          "name": "onandoff_01_02"
+        },
+        {
+          "name": "onandoff_01_03"
+        },
+        {
+          "name": "onandoff_01_04"
+        },
+        {
+          "name": "onandoff_01_05"
+        },
+        {
+          "name": "onandoff_01_06"
+        }
+      ]
+    },
+    {
+      "name": "day6_01",
+      "version": 1,
+      "packageImage": "day6_01.jpeg",
+      "title": "Right Through Me",
+      "artist": "DAY6(Even of Day)",
+      "exploreDesc": "DAY6(Even of Day)\n2nd MINI ALBUM 'Right Through Me'\nJYP ENTERTAINMENT",
+      "arImageExtension": "png",
+      "cardImageExtension": "jpg",
+      "videoShape": {
+        "shape": 0,
+        "shapeOptions": 2,
+        "scale": 1.03,
+        "width": 0.06445313,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "day6_01_01"
+        },
+        {
+          "name": "day6_01_02"
+        },
+        {
+          "name": "day6_01_03"
+        }
+      ]
+    },
+    {
+      "name": "txt_01",
+      "version": 1,
+      "packageImage": "txt_01.jpg",
+      "title": "The Chaos Chapter: FIGHT OR ESCAPE",
+      "artist": "TOMORROW X TOGETHER",
+      "exploreDesc": "TOMORROW X TOGETHER\nThe Chaos Chapter: FIGHT OR ESCAPE\nBIGHIT MUSIC",
+      "arImageExtension": "png",
+      "cardImageExtension": "jpg",
+      "videoShape": {
+        "scale": 1.03,
+        "width": 0.05644531,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "txt_01_01"
+        },
+        {
+          "name": "txt_01_02"
+        },
+        {
+          "name": "txt_01_03"
+        },
+        {
+          "name": "txt_01_04"
+        },
+        {
+          "name": "txt_01_05"
+        },
+        {
+          "name": "txt_01_06",
+          "videoShape": {
+            "width": 0.07988282
+          }
+        },
+        {
+          "name": "txt_01_07",
+          "videoShape": {
+            "width": 0.07988282
+          }
+        },
+        {
+          "name": "txt_01_08",
+          "videoShape": {
+            "width": 0.07988282
+          }
+        },
+        {
+          "name": "txt_01_09",
+          "videoShape": {
+            "width": 0.07988282
+          }
+        },
+        {
+          "name": "txt_01_10",
+          "videoShape": {
+            "width": 0.07988282
+          }
+        }
+      ]
+    },
+    {
+      "name": "theboyz_02",
+      "version": 1,
+      "updatedAt": "2000-01-01 23:59:59",
+      "packageImage": "theboyz_02.jpeg",
+      "title": "2021 SPECIAL EDITION",
+      "artist": "더보이즈 (THE BOYZ)",
+      "exploreDesc": "더보이즈 (THE BOYZ+C1Z)\nTHE BOYZ 2021 'SPECIAL EDITION'\n크래커엔터테인먼트",
+      "arImageExtension": "png",
+      "cardImageExtension": "jpg",
+      "hasLowVideos": true,
+      "serialNumberMode": 2,
+      "videoShape": {
+        "scale": 1,
+        "offsetX": 0,
+        "width": 0.06660157,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "theboyz_02_01",
+          "playerName": "SANGYEON"
+        },
+        {
+          "name": "theboyz_02_02",
+          "playerName": "JACOB"
+        },
+        {
+          "name": "theboyz_02_03",
+          "playerName": "YOUNGHOON"
+        },
+        {
+          "name": "theboyz_02_04",
+          "playerName": "HYUNJAE"
+        },
+        {
+          "name": "theboyz_02_05",
+          "playerName": "JUYEON"
+        },
+        {
+          "name": "theboyz_02_06",
+          "playerName": "KEVIN"
+        },
+        {
+          "name": "theboyz_02_07",
+          "playerName": "SANGYEON"
+        },
+        {
+          "name": "theboyz_02_08",
+          "playerName": "NEW"
+        },
+        {
+          "name": "theboyz_02_09",
+          "playerName": "Q"
+        },
+        {
+          "name": "theboyz_02_10",
+          "playerName": "SUNWOO"
+        },
+        {
+          "name": "theboyz_02_11",
+          "playerName": "ERIC"
+        }
+      ],
+      "combos": [
+        {
+          "file": "theboyz_02_u_01x03",
+          "cards": [
+            "theboyz_02_01",
+            "theboyz_02_03"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iu_05",
+      "updatedAt": "2000-01-01 23:59:59",
+      "packageImage": "iu_05.jpg",
+      "title": "LILAC",
+      "artist": "아이유(IU)",
+      "exploreDesc": "아이유(IU)\nIU 5th Album 'LILAC'\nEDAM엔터테인먼트",
+      "arImageExtension": "jpg",
+      "cardImageExtension": "jpg",
+      "hasLowVideos": false,
+      "videoShape": {
+        "shape": 1,
+        "scale": 1.03,
+        "width": 0.1,
+        "height": 0.1
+      },
+      "cards": [
+        {
+          "name": "iu_05_01",
+          "videoShape": {
+            "offsetY": -0.00035,
+            "width": 0.0748046875
+          }
+        },
+        {
+          "name": "iu_05_02",
+          "videoShape": {
+            "width": 0.07001953125
+          }
+        }
+      ]
+    }
+  ]
+}

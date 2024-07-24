@@ -1,0 +1,6 @@
+{
+  "version": 107,
+  "server": "http://3.38.215.38:5001/api",
+  "server-current": "http://54.180.1.95:5000/api",
+  "content": "https://photoar1.s3.ap-northeast-2.amazonaws.com/arf_illuu_header/ar_data.json"
+}

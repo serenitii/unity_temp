@@ -1,0 +1,2205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8945654626156296637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626156296610}
+  - component: {fileID: 8945654626156296608}
+  - component: {fileID: 8945654626156296611}
+  m_Layer: 5
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626156296610
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626156296637}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945654626386654697}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8945654626156296608
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626156296637}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654626156296611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626156296637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8945654626193646514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626193646515}
+  - component: {fileID: 8945654626193646518}
+  - component: {fileID: 8945654626193646513}
+  - component: {fileID: 8945654626193646512}
+  m_Layer: 5
+  m_Name: Exit Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626193646515
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626193646514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654628086504811}
+  m_Father: {fileID: 8945654626919791109}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -111}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &8945654626193646518
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626193646514}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654626193646513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626193646514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9372549, g: 0.37254903, b: 0.62352943, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1d0e6031235734c15abbab8fc7583044, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8945654626193646512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626193646514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8945654626193646513}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &8945654626210092009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626210092014}
+  - component: {fileID: 8945654626210092012}
+  - component: {fileID: 8945654626210092015}
+  m_Layer: 5
+  m_Name: Bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626210092014
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626210092009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945654626919791109}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8945654626210092012
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626210092009}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654626210092015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626210092009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e879c8ee8031142cab51d6e87b6913e9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8945654626211766092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626211766093}
+  - component: {fileID: 8945654626211766131}
+  - component: {fileID: 8945654626211766130}
+  m_Layer: 5
+  m_Name: TopBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626211766093
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626211766092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654627246231862}
+  m_Father: {fileID: 8945654626919791109}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 280}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &8945654626211766131
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626211766092}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654626211766130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626211766092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8945654626386654696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626386654697}
+  m_Layer: 5
+  m_Name: Sliding Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626386654697
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626386654696}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654626156296610}
+  m_Father: {fileID: 8945654626444758333}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &8945654626444758332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626444758333}
+  - component: {fileID: 8945654626444758304}
+  - component: {fileID: 8945654626444758307}
+  - component: {fileID: 8945654626444758306}
+  m_Layer: 5
+  m_Name: Scrollbar Vertical
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626444758333
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626444758332}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654626386654697}
+  m_Father: {fileID: 8945654627960964278}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: -17}
+  m_Pivot: {x: 1, y: 1}
+--- !u!222 &8945654626444758304
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626444758332}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654626444758307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626444758332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8945654626444758306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626444758332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8945654626156296611}
+  m_HandleRect: {fileID: 8945654626156296610}
+  m_Direction: 2
+  m_Value: 1
+  m_Size: 0.057172813
+  m_NumberOfSteps: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &8945654626823218549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626823218554}
+  - component: {fileID: 8945654626823218553}
+  - component: {fileID: 8945654626823218552}
+  - component: {fileID: 8945654626823218555}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626823218554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626823218549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945654627380780374}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &8945654626823218553
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626823218549}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654626823218552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626823218549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7f1d33be964ce44488d20d32588eb8ad, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uC11C\uBE44\uC2A4 \uC774\uC6A9\uC57D\uAD00\n\n\uC81C1\uC7A5 \uCD1D\uCE59\n\n\uC81C1\uC870
+    (\uBAA9\uC801)\n\n\uC774 \uC57D\uAD00\uC740 \uD68C\uC6D0\uC774 \u321C\uCF54\uD32C\uAE00\uB85C\uBC8C(\uC774\uD558
+    \u201C\uD68C\uC0AC\u201D\uB77C \uD569\uB2C8\uB2E4)\uC5D0\uC11C \uC81C\uACF5\uD558\uB294
+    AR \uD3EC\uD1A0 \uC11C\uBE44\uC2A4 \u201CILLUU\u201D(\uC774\uD558 \u201C\uC11C\uBE44\uC2A4\u201D\uB77C
+    \uD569\uB2C8\uB2E4)\uB97C \uC774\uC6A9\uD568\uC5D0 \uC788\uC5B4 \uD68C\uC6D0\uACFC
+    \uD68C\uC0AC\uAC04\uC758 \uAD8C\uB9AC, \uC758\uBB34 \uBC0F \uCC45\uC784\uC0AC\uD56D,
+    \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC870\uAC74 \uBC0F \uC808\uCC28 \uB4F1 \uAE30\uBCF8\uC801\uC778
+    \uC0AC\uD56D\uC744 \uADDC\uC815\uD568\uC744 \uBAA9\uC801\uC73C\uB85C \uD569\uB2C8\uB2E4.\n\n\uC81C2\uC870
+    (\uC57D\uAD00\uC758 \uD6A8\uB825 \uBC0F \uBCC0\uACBD)\n\n\uBCF8 \uC57D\uAD00\uC740
+    \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD558\uACE0\uC790 \uD558\uB294 \uBAA8\uB4E0
+    \uD68C\uC6D0\uC5D0 \uB300\uD558\uC5EC \uADF8 \uD6A8\uB825\uC744 \uBC1C\uC0DD\uD569\uB2C8\uB2E4.\uBCF8
+    \uC57D\uAD00\uC758 \uB0B4\uC6A9\uC740 \uC11C\uBE44\uC2A4 \uD654\uBA74\uC5D0 \uAC8C\uC2DC\uD558\uAC70\uB098
+    \uAE30\uD0C0\uC758 \uBC29\uBC95\uC73C\uB85C \uD68C\uC6D0\uC5D0\uAC8C \uACF5\uC9C0\uD558\uACE0,
+    \uC774\uC5D0 \uB3D9\uC758\uD55C \uD68C\uC6D0\uC774 \uC11C\uBE44\uC2A4\uC5D0 \uAC00\uC785\uD568\uC73C\uB85C\uC368
+    \uD6A8\uB825\uC774 \uBC1C\uC0DD\uD569\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uD544\uC694\uD558\uB2E4\uACE0
+    \uC778\uC815\uB418\uB294 \uACBD\uC6B0 \uBCF8 \uC57D\uAD00\uC744 \uBCC0\uACBD\uD560
+    \uC218 \uC788\uC73C\uBA70, \uC57D\uAD00\uC774 \uBCC0\uACBD\uB41C \uACBD\uC6B0\uC5D0\uB294
+    \uC9C0\uCCB4 \uC5C6\uC774 \uC81C2\uD56D\uACFC \uAC19\uC740 \uBC29\uBC95\uC73C\uB85C
+    \uACF5\uC9C0\uD569\uB2C8\uB2E4. \uB2E4\uB9CC, \uC774\uC6A9\uC790\uC758 \uAD8C\uB9AC
+    \uB610\uB294 \uC758\uBB34\uC5D0 \uAD00\uD55C \uC911\uC694\uD55C \uADDC\uC815\uC758
+    \uBCC0\uACBD\uC740 \uCD5C\uC18C\uD55C 7\uC77C\uC804\uC5D0 \uACF5\uC9C0\uD558\uBA70
+    \uAC1C\uC815 \uB0B4\uC6A9\uC774 \uC774\uC6A9\uC790\uC5D0\uAC8C \uBD88\uB9AC\uD560
+    \uACBD\uC6B0\uC5D0\uB294 30\uC77C\uAC04 \uACE0\uC9C0\uD569\uB2C8\uB2E4.\uC774\uC6A9\uC790\uB294
+    \uBCC0\uACBD\uB41C \uC57D\uAD00 \uC0AC\uD56D\uC5D0 \uB3D9\uC758\uD558\uC9C0 \uC54A\uC73C\uBA74
+    \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC744 \uC911\uB2E8\uD558\uACE0 \uC774\uC6A9 \uACC4\uC57D\uC744
+    \uD574\uC9C0\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC81C3\uC870 (\uC57D\uAD00
+    \uC678 \uC900\uCE59)\n\n\uBCF8 \uC57D\uAD00\uC5D0 \uBA85\uC2DC\uB418\uC9C0 \uC54A\uC740
+    \uC0AC\uD56D\uC5D0 \uB300\uD574\uC11C\uB294 \uC804\uAE30\uD1B5\uC2E0\uAE30\uBCF8\uBC95,
+    \uC804\uAE30\uD1B5\uC2E0\uC0AC\uC5C5\uBC95 \uB4F1 \uAD00\uACC4\uBC95\uB839 \uBC0F
+    \uD68C\uC0AC\uAC00 \uBCC4\uB3C4\uB85C \uC815\uD55C \uC11C\uBE44\uC2A4\uC758 \uC138\uBD80\uC774\uC6A9\uC9C0\uCE68
+    \uB4F1\uC758 \uADDC\uC815\uC5D0 \uC758\uD569\uB2C8\uB2E4.\n\n\uC81C4\uC870 \uC6A9\uC5B4\uC758
+    \uC815\uC758\n\n\uBCF8 \uC57D\uAD00\uC5D0\uC11C \uC0AC\uC6A9\uD558\uB294 \uC6A9\uC5B4\uC758
+    \uC815\uC758\uB294 \uB2E4\uC74C\uACFC \uAC19\uC2B5\uB2C8\uB2E4.\uD68C\uC6D0 :
+    \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD558\uAE30 \uC704\uD558\uC5EC \uC11C\uBE44\uC2A4
+    \uC0AC\uC774\uD2B8\uC5D0 \uC811\uC18D\uD558\uC5EC \uC774 \uC57D\uAD00\uC5D0 \uB3D9\uC758\uD558\uAC70\uB098
+    \uAE30\uD0C0 \uD68C\uC0AC\uAC00 \uC694\uCCAD\uD558\uB294 \uC808\uCC28\uB97C \uAC70\uCCD0
+    \uC11C\uBE44\uC2A4 \uC774\uC6A9 \uACC4\uC57D\uC744 \uCCB4\uACB0\uD558\uC5EC \uC11C\uBE44\uC2A4\uB97C
+    \uC774\uC6A9\uD558\uB294 \uBAA8\uB4E0 \uACE0\uAC1D\uC6B4\uC601\uC790 : \uC11C\uBE44\uC2A4\uC758
+    \uC804\uBC18\uC801\uC778 \uAD00\uB9AC\uC640 \uC6D0\uD65C\uD55C \uC6B4\uC601\uC744
+    \uC704\uD558\uC5EC \uD68C\uC0AC\uAC00 \uC120\uC815\uD55C \uC790\uCEE8\uD150\uCE20
+    : \uC11C\uBE44\uC2A4\uC5D0 \uC774\uC6A9\uD560 \uC218 \uC788\uB3C4\uB85D \uD68C\uC6D0\uC5D0\uAC8C
+    \uC81C\uACF5\uD558\uB294 \uC774\uBBF8\uC9C0 \uACC4\uC5F4\uC758 \uBAA8\uB4E0 \uB370\uC774\uD130(\uC74C\uC6D0,
+    \uD14D\uC2A4\uD2B8, \uC774\uBBF8\uC9C0, \uADF8\uB798\uD53D, \uC568\uBC94\uC7AC\uD0B7
+    \uC0AC\uC9C4, \uBBA4\uC9C1\uBE44\uB514\uC624 \uB4F1 \uD615\uD0DC\uC640 \uBA85\uCE6D\uC744
+    \uBD88\uBB38\uD568)\uC560\uD50C\uB9AC\uCF00\uC774\uC158 : \uD68C\uC0AC\uAC00
+    \uC81C\uACF5\uD558\uB294 \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD558\uAE30 \uC704\uD558\uC5EC
+    \uD734\uB300\uD3F0, \uC2A4\uB9C8\uD2B8\uD3F0, \uD0DC\uBE14\uB9BF \uB4F1\uC758
+    \uB2E8\uB9D0\uAE30\uB97C \uD1B5\uD574 \uB2E4\uC6B4\uB85C\uB4DC \uBC1B\uAC70\uB098
+    \uC124\uCE58\uD558\uC5EC \uC0AC\uC6A9\uD558\uB294 \uD504\uB85C\uADF8\uB7A8 \uC77C\uCCB4\uD50C\uB7AB\uD3FC\uC0AC\uC5C5\uC790
+    : \uD68C\uC0AC\uC640 \uC81C\uD734\uD558\uC5EC \uC11C\uBE44\uC2A4\uB97C \uC81C\uACF5\uD558\uB294
+    \uC0AC\uC5C5\uC790 \uBC0F \uAD00\uB828 \uC11C\uBE44\uC2A4 \uC77C\uCCB4\uC11C\uBE44\uC2A4
+    \uC911\uC9C0 : \uC815\uC0C1 \uC774\uC6A9 \uC911 \uD68C\uC0AC\uAC00 \uC815\uD55C
+    \uC77C\uC815\uD55C \uC694\uAC74\uC5D0 \uB530\uB77C \uC77C\uC815\uAE30\uAC04 \uB3D9\uC548
+    \uC11C\uBE44\uC2A4\uC758 \uC81C\uACF5\uC744 \uC911\uC9C0\uD558\uB294 \uAC83\uBCF8
+    \uC57D\uAD00\uC5D0\uC11C \uC0AC\uC6A9\uD558\uB294 \uC6A9\uC5B4\uC758 \uC815\uC758\uB294
+    \uC81C1\uD56D\uC5D0\uC11C \uC815\uD558\uB294 \uAC83\uC744 \uC81C\uC678\uD558\uACE0\uB294
+    \uAD00\uACC4 \uBC95\uB839 \uBC0F \uC11C\uBE44\uC2A4\uBCC4 \uC548\uB0B4\uC5D0\uC11C
+    \uC815\uD558\uB294 \uBC14\uC5D0 \uC758\uD569\uB2C8\uB2E4.\n\n\uC81C2\uC7A5 \uC11C\uBE44\uC2A4
+    \uC774\uC6A9\uACC4\uC57D\n\n\uC81C5\uC870 (\uC774\uC6A9\uACC4\uC57D\uC758 \uC131\uB9BD)\n\n\uC774\uC6A9\uACC4\uC57D\uC740
+    \uC774\uC6A9\uC790\uC758 \uC560\uD50C\uB9AC\uCF00\uC774\uC158 \uC124\uCE58 \uB4F1\uC758
+    \uC774\uC6A9\uC2E0\uCCAD \uBC0F \uC57D\uAD00 \uB3D9\uC758\uC640, \uADF8 \uC774\uC6A9\uC2E0\uCCAD\uC5D0
+    \uB300\uD55C \uD68C\uC0AC\uC758 \uC774\uC6A9\uC2B9\uB099\uC73C\uB85C \uC131\uB9BD\uD569\uB2C8\uB2E4.\uC774
+    \uC57D\uAD00\uC5D0 \uB300\uD55C \uB3D9\uC758\uB294 \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC744
+    \uC704\uD55C \uC560\uD50C\uB9AC\uCF00\uC774\uC158 \uC124\uCE58 \uBC0F \uC774\uC6A9\uC2E0\uCCAD
+    \uB2F9\uC2DC, \uD68C\uC0AC\uC758 \uD648\uD398\uC774\uC9C0\uC5D0 \uACE0\uC2DC\uB41C
+    \uC774\uC6A9\uC57D\uAD00 \uD655\uC778\uACFC \u201C\uB3D9\uC758\u201D \uBC84\uD2BC\uC744
+    \uB204\uB984\uC73C\uB85C\uC368 \uC774 \uC57D\uAD00\uC5D0 \uB3D9\uC758\uD558\uB294
+    \uC758\uC0AC\uD45C\uC2DC\uAC00 \uB418\uBA70, \uC560\uD50C\uB9AC\uCF00\uC774\uC158
+    \uAD6C\uB3D9\uACFC \uB3D9\uC2DC\uC5D0 \uACC4\uC57D\uC740 \uC131\uB9BD\uB429\uB2C8\uB2E4.
+    \uB9CC\uC57D \uAC1C\uC815 \uBC0F \uC2DC\uD589\uC77C \uC774\uC804\uC5D0 \uD574\uB2F9
+    \uB3D9\uC758 \uC808\uCC28 \uC5C6\uC774 \uC560\uD50C\uB9AC\uCF00\uC774\uC158\uC744
+    \uC2E4\uD589\uD55C \uACBD\uC6B0\uC5D0\uB3C4 \uC774 \uC57D\uAD00\uC5D0 \uB3D9\uC758\uD55C
+    \uAC83\uC73C\uB85C \uAC04\uC8FC\uB418\uBA70, \uB3D9\uC758\uD558\uC9C0 \uC54A\uC744
+    \uACBD\uC6B0 \uD0C8\uD1F4\uD558\uAE30 \uBC0F \uC560\uD50C\uB9AC\uCF00\uC774\uC158
+    \uC0AD\uC81C\uC640 \uD568\uAED8 \uC774\uC6A9\uC790\uB294 \uC704 \uB3D9\uC758\uB97C
+    \uCCA0\uD68C\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uC81C1\uD56D\uC5D0 \uB530\uB978
+    \uC774\uC6A9\uC2E0\uCCAD\uC790\uAC00 \uC774\uC6A9\uC2E0\uCCAD \uC591\uC2DD\uC5D0
+    \uAE30\uC7AC\uD558\uB294 \uBAA8\uB4E0 \uC815\uBCF4\uB294 \uC9C4\uC2E4\uC5D0 \uBD80\uD569\uD558\uB294
+    \uC815\uBCF4\uB85C \uAC04\uC8FC\uD569\uB2C8\uB2E4. \uC2E4\uBA85\uC774\uB098 \uC2E4\uC81C
+    \uC815\uBCF4\uB97C \uC785\uB825\uD558\uC9C0 \uC54A\uC740 \uC774\uC6A9\uC2E0\uCCAD\uC790\uB294
+    \uBC95\uC801\uC778 \uBCF4\uD638\uB97C \uBC1B\uC744 \uC218 \uC5C6\uC73C\uBA70,
+    \uC11C\uBE44\uC2A4 \uC774\uC6A9\uACC4\uC57D\uC744 \uD574\uC9C0 \uB2F9\uD558\uAC70\uB098
+    \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC758 \uC81C\uD55C\uC744 \uBC1B\uC744 \uC218
+    \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC81C6\uC870 (\uC774\uC6A9\uC2E0\uCCAD\uC758 \uC2B9\uB099)\n\n\uD68C\uC0AC\uB294
+    \uC6D0\uCE59\uC801\uC73C\uB85C \uC2E0\uCCAD \uC21C\uC11C\uC5D0 \uB530\uB77C \uC11C\uBE44\uC2A4
+    \uC774\uC6A9\uC5D0 \uB300\uD55C \uC2B9\uB099\uC744 \uC9C4\uD589\uD569\uB2C8\uB2E4.
+    \uB2E4\uB9CC, \uC544\uB798 \uAC01 \uD638\uC5D0 \uD574\uB2F9\uD558\uB294 \uACBD\uC6B0\uC5D0\uB294
+    \uADF8 \uC0AC\uC720\uAC00 \uD574\uC18C\uB420 \uB54C\uAE4C\uC9C0 \uC2B9\uB099\uC744
+    \uBCF4\uB958\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uD68C\uC0AC\uC758 \uC124\uBE44\uC5D0
+    \uC5EC\uC720\uAC00 \uC5C6\uB294 \uACBD\uC6B0\uAE30\uC220\uC0C1 \uC9C0\uC7A5\uC774
+    \uC788\uB294 \uACBD\uC6B0\uAE30\uD0C0 \uD68C\uC0AC\uC758 \uC0AC\uC815\uC73C\uB85C
+    \uC774\uC6A9 \uC2B9\uB099\uC774 \uACE4\uB780\uD55C \uACBD\uC6B0\uD68C\uC0AC\uB294
+    \uC544\uB798 \uC0AC\uD56D\uC5D0 \uD574\uB2F9\uB418\uB294 \uACBD\uC6B0\uC5D0 \uB300\uD574\uC11C\uB294
+    \uC2B9\uB099\uD558\uC9C0 \uC544\uB2C8\uD560 \uC218 \uC788\uC73C\uBA70, \uB2E4\uC74C
+    \uAC01 \uD638\uC758 \uC5B4\uB290 \uD558\uB098\uC5D0 \uD574\uB2F9\uB41C\uB2E4\uB294
+    \uC0AC\uC2E4\uC744 \uC54C\uC9C0 \uBABB\uD558\uACE0 \uC774\uC6A9\uACC4\uC57D\uC744
+    \uCCB4\uACB0\uD55C \uACBD\uC6B0\uC5D0\uB294 \uADF8 \uC0AC\uC2E4\uC744 \uC54C\uAC8C
+    \uB41C \uC989\uC2DC \uC774\uC6A9\uACC4\uC57D\uC744 \uD574\uC9C0\uD560 \uC218
+    \uC788\uC2B5\uB2C8\uB2E4.\uD0C0\uC778\uC758 \uC815\uBCF4 \uB610\uB294 \uBAA8\uBC14\uC77C
+    \uAE30\uAE30\uB97C \uB3C4\uC6A9\uD55C \uACBD\uC6B0 \uD615\uBC95\uC5D0\uC11C \uADDC\uC815\uD55C
+    \uBC94\uC8C4 \uD589\uC704\uC758 \uBAA9\uC801\uC73C\uB85C \uC11C\uBE44\uC2A4\uB97C
+    \uC774\uC6A9\uD558\uACE0\uC790 \uD558\uB294 \uACBD\uC6B0\uC18C\uB144\uBCF4\uD638\uBC95\uC758
+    \uCDE8\uC9C0\uC5D0 \uC704\uBC30\uB418\uB294 \uBAA9\uC801\uC73C\uB85C \uC11C\uBE44\uC2A4\uB97C
+    \uC774\uC6A9\uD558\uACE0\uC790 \uD558\uB294 \uACBD\uC6B0\uAE30\uD0C0 \uD604\uD589
+    \uBC95\uB839\uC5D0 \uC704\uBC30\uB418\uB294 \uBAA9\uC801\uC73C\uB85C \uC11C\uBE44\uC2A4\uB97C
+    \uC774\uC6A9\uD558\uACE0\uC790 \uD558\uB294 \uACBD\uC6B0\uC601\uB9AC\uB97C \uCD94\uAD6C\uD560
+    \uBAA9\uC801\uC73C\uB85C \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD558\uACE0\uC790
+    \uD558\uB294 \uACBD\uC6B0\uC11C\uBE44\uC2A4\uC640 \uACBD\uC7C1 \uAD00\uACC4\uC5D0
+    \uC788\uB294 \uD68C\uC6D0\uC774 \u2018\uD68C\uC0AC\u2019\uC758 \uC774\uC775\uC744
+    \uC800\uD574\uD558\uB824\uB294 \uBAA9\uC801\uC73C\uB85C \uC2E0\uCCAD\uD558\uB294
+    \uACBD\uC6B0\uB300\uD55C\uBBFC\uAD6D \uC774\uC678\uC758 \uAD6D\uAC00 \uC911 \uC11C\uBE44\uC2A4\uB97C
+    \uC81C\uACF5\uD560 \uAC83\uC73C\uB85C \uACB0\uC815\uD558\uC9C0 \uC54A\uC740 \uAD6D\uAC00\uC758
+    \uC811\uC18D \uD68C\uC6D0\uC5D0 \uB300\uD574 \uAD00\uB9AC, \uC6B4\uC601\uC0C1
+    \uD544\uC694\uD55C \uACBD\uC6B0\uD68C\uC0AC\uAC00 \uC11C\uBE44\uC2A4\uC774\uC6A9\uC744
+    \uC81C\uD55C\uD55C \uBAA8\uBC14\uC77C \uAE30\uAE30\uC5D0\uC11C \uC11C\uBE44\uC2A4
+    \uC774\uC6A9\uC758 \uC2E0\uCCAD\uC744 \uD558\uB294 \uACBD\uC6B0\uAC00\uC785 \uC2E0\uCCAD
+    \uC2DC \uC5F0\uB839\uC774 14\uC138 \uBBF8\uB9CC\uC778 \uACBD\uC6B0 \uBC95\uC815\uB300\uB9AC\uC778\uC758
+    \uB3D9\uC758\uB97C \uAC70\uCE5C \uD6C4 \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC774
+    \uAC00\uB2A5\uD569\uB2C8\uB2E4.\uAE30\uD0C0 \u2018\uD68C\uC0AC\u2019\uAC00 \uADDC\uC815\uD55C
+    \uC0AC\uD56D\uC744 \uC704\uBC18\uD558\uC5EC \uC2E0\uCCAD\uD558\uB294 \uACBD\uC6B0\n\n\uC81C7\uC870
+    (\uACC4\uC57D \uC0AC\uD56D\uC758 \uBCC0\uACBD)\n\n\uD68C\uC6D0\uC740 \uC774\uC6A9
+    \uC2E0\uCCAD \uC2DC \uAE30\uC7AC\uD55C \uC0AC\uD56D\uC774 \uBCC0\uACBD\uB418\uC5C8\uC744
+    \uACBD\uC6B0 \uD68C\uC0AC\uAC00 \uC815\uD55C \uBCC4\uB3C4\uC758 \uC774\uC6A9
+    \uBC29\uBC95\uC73C\uB85C \uC815\uD574\uC9C4 \uC591\uC2DD \uBC0F \uBC29\uBC95\uC5D0
+    \uC758\uD558\uC5EC \uC218\uC815\uD558\uC5EC\uC57C \uD569\uB2C8\uB2E4.\n\n\uC81C3\uC7A5
+    \uC11C\uBE44\uC2A4 \uC774\uC6A9\n\n\uC81C8\uC870 (\uC11C\uBE44\uC2A4 \uC774\uC6A9
+    \uAC1C\uC2DC)\n\n\uD68C\uC0AC\uB294 \uD68C\uC6D0\uC758 \uC774\uC6A9 \uC2E0\uCCAD\uC744
+    \uC2B9\uB099\uD55C \uB54C\uBD80\uD130 \uC11C\uBE44\uC2A4\uB97C \uAC1C\uC2DC\uD569\uB2C8\uB2E4.
+    \uB2E8, \uC77C\uBD80 \uC11C\uBE44\uC2A4\uC758 \uACBD\uC6B0\uC5D0\uB294 \uC9C0\uC815\uB41C
+    \uC77C\uC790\uBD80\uD130 \uC11C\uBE44\uC2A4\uB97C \uAC1C\uC2DC\uD569\uB2C8\uB2E4.\uD68C\uC0AC\uC758
+    \uC5C5\uBB34\uC0C1 \uB610\uB294 \uAE30\uC220\uC0C1\uC758 \uC7A5\uC560\uB85C \uC778\uD558\uC5EC
+    \uC11C\uBE44\uC2A4\uB97C \uAC1C\uC2DC\uD558\uC9C0 \uBABB\uD558\uB294 \uACBD\uC6B0\uC5D0\uB294
+    \uC560\uD50C\uB9AC\uCF00\uC774\uC158 \uCD08\uAE30 \uD654\uBA74 \uB610\uB294 \uC0AC\uC774\uD2B8\uC5D0
+    \uACF5\uC9C0\uD569\uB2C8\uB2E4.\n\n\uC81C9\uC870 (\uC11C\uBE44\uC2A4\uC758 \uC774\uC6A9\uC2DC\uAC04)\n\n\uC11C\uBE44\uC2A4\uC758
+    \uC774\uC6A9\uC740 \uC5F0\uC911\uBB34\uD734 1\uC77C 24\uC2DC\uAC04\uC744 \uC6D0\uCE59\uC73C\uB85C
+    \uD569\uB2C8\uB2E4. \uB2E4\uB9CC, \uD68C\uC0AC\uC758 \uC5C5\uBB34\uC0C1\uC774\uB098
+    \uAE30\uC220\uC0C1\uC758 \uC774\uC720\uB85C \uC11C\uBE44\uC2A4\uAC00 \uC77C\uC2DC
+    \uC911\uC9C0\uB420 \uC218 \uC788\uACE0, \uB610\uD55C \uC6B4\uC601\uC0C1\uC758
+    \uBAA9\uC801\uC73C\uB85C \uD68C\uC0AC\uAC00 \uC815\uD55C \uAE30\uAC04 \uB3D9\uC548\uC5D0\uB294
+    \uC11C\uBE44\uC2A4\uAC00 \uC77C\uC2DC \uC911\uC9C0\uB420 \uC218 \uC788\uC2B5\uB2C8\uB2E4.
+    \uC774\uB7EC\uD55C \uACBD\uC6B0 \uD68C\uC0AC\uB294 \uC0AC\uC804 \uB610\uB294
+    \uC0AC\uD6C4\uC5D0 \uC774\uB97C \uACF5\uC9C0\uD569\uB2C8\uB2E4.\uD68C\uC0AC\uB294
+    \uC11C\uBE44\uC2A4\uB97C \uC77C\uC815\uBC94\uC704\uB85C \uBD84\uD560\uD558\uC5EC
+    \uAC01 \uBC94\uC704\uBCC4\uB85C \uC774\uC6A9 \uAC00\uB2A5\uD55C \uC2DC\uAC04\uC744
+    \uBCC4\uB3C4\uB85C \uC815\uD560 \uC218 \uC788\uC73C\uBA70 \uC774 \uACBD\uC6B0
+    \uADF8 \uB0B4\uC6A9\uC744 \uACF5\uC9C0\uD569\uB2C8\uB2E4.\n\n\uC81C10\uC870 (\uC11C\uBE44\uC2A4\uC758
+    \uBCC0\uACBD \uBC0F \uC911\uC9C0)\n\n\uD68C\uC0AC\uB294 \uBCC0\uACBD\uB420 \uC11C\uBE44\uC2A4\uC758
+    \uB0B4\uC6A9 \uBC0F \uC81C\uACF5\uC77C\uC790\uB97C \uC81C2\uC870\uC5D0\uC11C
+    \uC815\uD55C \uBC29\uBC95\uC73C\uB85C \uD68C\uC6D0\uC5D0\uAC8C \uD1B5\uC9C0\uD558\uACE0
+    \uC11C\uBE44\uC2A4\uB97C \uBCC0\uACBD\uD558\uC5EC \uC81C\uACF5\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uD68C\uC0AC\uB294
+    \uB2E4\uC74C\uC5D0 \uD574\uB2F9\uD558\uB294 \uACBD\uC6B0 \uC11C\uBE44\uC2A4\uC758
+    \uC804\uBD80 \uB610\uB294 \uC77C\uBD80\uB97C \uC81C\uD55C\uD558\uAC70\uB098 \uC911\uC9C0\uD560
+    \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uC11C\uBE44\uC2A4\uC6A9 \uC124\uBE44\uC758 \uBCF4\uC218
+    \uB4F1 \uACF5\uC0AC\uB85C \uC778\uD55C \uBD80\uB4DD\uC774\uD55C \uACBD\uC6B0\uD68C\uC6D0\uC774
+    \uD68C\uC0AC\uC758 \uC601\uC5C5\uD65C\uB3D9\uC744 \uBC29\uD574\uD558\uB294 \uACBD\uC6B0\uC815\uC804,
+    \uC81C\uBC18 \uC124\uBE44\uC758 \uC7A5\uC560 \uB610\uB294 \uC774\uC6A9\uB7C9\uC758
+    \uD3ED\uC8FC \uB4F1\uC73C\uB85C \uC815\uC0C1\uC801\uC778 \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC5D0
+    \uC9C0\uC7A5\uC774 \uC788\uB294 \uACBD\uC6B0\uC11C\uBE44\uC2A4 \uC81C\uACF5\uC5C5\uC790\uC640\uC758
+    \uACC4\uC57D \uC885\uB8CC \uB4F1\uACFC \uAC19\uC740 \uD68C\uC0AC\uC758 \uC81C\uBC18
+    \uC0AC\uC815\uC73C\uB85C \uC11C\uBE44\uC2A4\uB97C \uC720\uC9C0\uD560 \uC218 \uC5C6\uB294
+    \uACBD\uC6B0\uAE30\uD0C0 \uCC9C\uC7AC\uC9C0\uBCC0, \uAD6D\uAC00\uBE44\uC0C1\uC0AC\uD0DC
+    \uB4F1 \uBD88\uAC00\uD56D\uB825\uC801 \uC0AC\uC720\uAC00 \uC788\uB294 \uACBD\uC6B0\uC81C2\uD56D\uC5D0
+    \uC758\uD55C \uC11C\uBE44\uC2A4 \uC911\uB2E8\uC758 \uACBD\uC6B0\uC5D0\uB294 \uD68C\uC0AC\uAC00
+    \uC81C2\uC870 \uC81C2\uD56D\uC5D0\uC11C \uC815\uD55C \uBC29\uBC95\uC73C\uB85C
+    \uC774\uC6A9\uC790\uC5D0\uAC8C \uD1B5\uC9C0\uD569\uB2C8\uB2E4. \uB2E4\uB9CC,
+    \uD68C\uC0AC\uAC00 \uD1B5\uC81C\uD560 \uC218 \uC5C6\uB294 \uC0AC\uC720\uB85C
+    \uC778\uD55C \uC11C\uBE44\uC2A4\uC758 \uC911\uB2E8(\uC6B4\uC601\uC790\uC758 \uACE0\uC758,
+    \uACFC\uC2E4\uC774 \uC5C6\uB294 \uB514\uC2A4\uD06C \uC7A5\uC560, \uC2DC\uC2A4\uD15C
+    \uB2E4\uC6B4 \uB4F1)\uC73C\uB85C \uC778\uD558\uC5EC \uC0AC\uC804 \uD1B5\uC9C0\uAC00
+    \uBD88\uAC00\uB2A5\uD55C \uACBD\uC6B0\uC5D0\uB294 \uC0AC\uD6C4\uC5D0 \uD1B5\uC9C0\uD560
+    \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uC11C\uBE44\uC2A4\uC758 \uBCC0\uACBD,
+    \uC911\uC9C0\uB85C \uBC1C\uC0DD\uD558\uB294 \uBB38\uC81C\uC5D0 \uB300\uD574\uC11C\uB294
+    \uC5B4\uB5A0\uD55C \uCC45\uC784\uB3C4 \uC9C0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.\n\n\uC81C11\uC870
+    (\uC815\uBCF4\uC758 \uC81C\uACF5 \uBC0F \uAD11\uACE0\uC758 \uAC8C\uC7AC)\n\n\uD68C\uC0AC\uB294
+    \uC11C\uBE44\uC2A4\uB97C \uC6B4\uC601\uD568\uC5D0 \uC788\uC5B4 \uAC01\uC885 \uC815\uBCF4\uB97C
+    \uC11C\uBE44\uC2A4 \uD654\uBA74\uC5D0 \uAC8C\uC7AC\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uD68C\uC0AC\uB294
+    \uC11C\uBE44\uC2A4\uC758 \uC6B4\uC601\uACFC \uAD00\uB828\uD558\uC5EC \uD648\uD398\uC774\uC9C0,
+    \uC11C\uBE44\uC2A4 \uD654\uBA74, e-mail \uB4F1\uC5D0 \uAD11\uACE0 \uB4F1\uC744
+    \uAC8C\uC7AC\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uD68C\uC6D0\uC774 \uC11C\uBE44\uC2A4\uC0C1\uC5D0
+    \uAC8C\uC7AC\uB418\uC5B4 \uC788\uB294 \uAD11\uACE0\uB97C \uC774\uC6A9\uD558\uAC70\uB098
+    \uC11C\uBE44\uC2A4\uB97C \uD1B5\uD55C \uAD11\uACE0\uC8FC\uC758 \uD310\uCD09\uD65C\uB3D9\uC5D0
+    \uCC38\uC5EC\uD558\uB294 \uB4F1\uC758 \uBC29\uBC95\uC73C\uB85C \uAD50\uC2E0 \uB610\uB294
+    \uAC70\uB798\uB97C \uD558\uB294 \uAC83\uC740 \uC804\uC801\uC73C\uB85C \uD68C\uC6D0\uACFC
+    \uAD11\uACE0\uC8FC \uAC04\uC758 \uBB38\uC81C\uC785\uB2C8\uB2E4. \uB9CC\uC57D
+    \uD68C\uC6D0\uACFC \uAD11\uACE0\uC8FC\uAC04\uC5D0 \uBB38\uC81C\uAC00 \uBC1C\uC0DD\uD560
+    \uACBD\uC6B0\uC5D0\uB3C4 \uD68C\uC6D0\uACFC \uAD11\uACE0\uC8FC\uAC00 \uC9C1\uC811
+    \uD574\uACB0\uD558\uC5EC\uC57C \uD558\uBA70, \uC774\uC640 \uAD00\uB828\uD558\uC5EC
+    \uD68C\uC0AC\uB294 \uC5B4\uB5A0\uD55C \uCC45\uC784\uB3C4 \uC9C0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.\n\n\uC81C12\uC870
+    (\uCEE8\uD150\uCE20\uC758 \uC800\uC791\uAD8C)\n\n\uD68C\uC0AC\uAC00 \uC791\uC131\uD55C
+    \uC800\uC791\uBB3C, \uAE30\uD0C0 \uCEE8\uD150\uCE20\uC5D0 \uB300\uD55C \uC800\uC791\uAD8C
+    \uAE30\uD0C0 \uAD8C\uB9AC\uB294 \uD68C\uC0AC\uC5D0 \uADC0\uC18D\uD569\uB2C8\uB2E4.\uD68C\uC6D0\uC740
+    \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD558\uC5EC \uC5BB\uC740 \uC815\uBCF4\uB97C
+    \uAC00\uACF5, \uD310\uB9E4\uD558\uB294 \uD589\uC704 \uB4F1 \uC11C\uBE44\uC2A4\uC5D0
+    \uAC8C\uC7AC\uB41C \uC790\uB8CC\uB97C \uC601\uB9AC\uBAA9\uC801\uC73C\uB85C \uC774\uC6A9\uD558\uAC70\uB098
+    \uC81C3\uC790\uC5D0\uAC8C \uC774\uC6A9\uD558\uAC8C \uD560 \uC218 \uC5C6\uC73C\uBA70,
+    \uAC8C\uC2DC\uBB3C\uC5D0 \uB300\uD55C \uC800\uC791\uAD8C \uCE68\uD574\uB294 \uAD00\uACC4
+    \uBC95\uB839\uC758 \uC801\uC6A9\uC744 \uBC1B\uC2B5\uB2C8\uB2E4.\n\n\uC81C4\uC7A5
+    \uACC4\uC57D\uB2F9\uC0AC\uC790\uC758 \uC758\uBB34\n\n\uC81C13\uC870 (\uD68C\uC0AC\uC758
+    \uC758\uBB34)\n\n\uD68C\uC0AC\uB294 \uC11C\uBE44\uC2A4 \uC81C\uACF5\uACFC \uAD00\uB828\uD558\uC5EC
+    \uC54C\uACE0 \uC788\uB294 \uD68C\uC6D0\uC758 \uC2E0\uC0C1\uC815\uBCF4\uB97C \uBCF8\uC778\uC758
+    \uC2B9\uB099 \uC5C6\uC774 \uC81C3\uC790\uC5D0\uAC8C \uB204\uC124, \uBC30\uD3EC\uD558\uC9C0
+    \uC54A\uC2B5\uB2C8\uB2E4. \uB2E8, \uAD00\uACC4\uBC95\uB839\uC5D0 \uC758\uD55C
+    \uC218\uC0AC\uC0C1\uC758 \uBAA9\uC801\uC73C\uB85C \uAD00\uACC4\uAE30\uAC04\uC73C\uB85C\uBD80\uD130
+    \uC694\uAD6C \uBC1B\uC740 \uACBD\uC6B0\uB098 \uBC29\uC1A1\uD1B5\uC2E0\uC2EC\uC758\uC704\uC6D0\uD68C\uC758
+    \uC694\uCCAD\uC774 \uC788\uB294 \uACBD\uC6B0 \uB4F1 \uBC95\uB960\uC758 \uADDC\uC815\uC5D0
+    \uB530\uB978 \uC801\uBC95\uD55C \uC808\uCC28\uC5D0 \uC758\uD55C \uACBD\uC6B0\uC5D0\uB294
+    \uADF8\uB7EC\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.\uC81C1\uD56D\uC758 \uBC94\uC704
+    \uB0B4\uC5D0\uC11C, \uD68C\uC0AC\uB294 \uC5C5\uBB34\uC640 \uAD00\uB828\uD558\uC5EC
+    \uD68C\uC6D0\uC758 \uC0AC\uC804 \uB3D9\uC758 \uC5C6\uC774 \uD68C\uC6D0 \uC804\uCCB4
+    \uB610\uB294 \uC77C\uBD80\uC758 \uAC1C\uC778 \uC815\uBCF4\uC5D0 \uAD00\uD55C
+    \uD1B5\uACC4\uC790\uB8CC\uB97C \uC791\uC131\uD558\uC5EC \uC774\uB97C \uC0AC\uC6A9\uD560
+    \uC218 \uC788\uACE0, \uC774\uB97C \uC704\uD558\uC5EC \uD68C\uC6D0\uC758 \uCEF4\uD4E8\uD130
+    \uB610\uB294 \uD734\uB300\uC7A5\uCE58\uC5D0 \uCFE0\uD0A4\uB97C \uC804\uC1A1\uD560
+    \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uC774 \uACBD\uC6B0 \uD68C\uC6D0\uC740 \uCFE0\uD0A4\uC758
+    \uC218\uC2E0\uC744 \uAC70\uBD80\uD558\uAC70\uB098 \uCFE0\uD0A4\uC758 \uC218\uC2E0\uC5D0
+    \uB300\uD558\uC5EC \uACBD\uACE0\uD558\uB3C4\uB85D \uC0AC\uC6A9\uD558\uB294 \uBE0C\uB77C\uC6B0\uC800\uC758
+    \uC124\uC815\uC744 \uBCC0\uACBD\uD560 \uC218 \uC788\uC73C\uBA70, \uCFE0\uD0A4\uC758
+    \uC124\uC815 \uBCC0\uACBD\uC5D0 \uC758\uD574 \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC774
+    \uBCC0\uACBD\uB418\uB294 \uAC83\uC740 \uD68C\uC6D0\uC758 \uCC45\uC784\uC785\uB2C8\uB2E4.\uD68C\uC0AC\uB294
+    \uC11C\uBE44\uC2A4\uC640 \uAD00\uB828\uD55C \uD68C\uC6D0\uC758 \uBD88\uB9CC\uC0AC\uD56D\uC774
+    \uC811\uC218\uB418\uB294 \uACBD\uC6B0 \uC774\uB97C \uC2E0\uC18D\uD558\uAC8C \uCC98\uB9AC\uD558\uC5EC\uC57C
+    \uD558\uBA70, \uC2E0\uC18D\uD55C \uCC98\uB9AC\uAC00 \uACE4\uB780\uD55C \uACBD\uC6B0
+    \uADF8 \uC0AC\uC720\uC640 \uCC98\uB9AC \uC77C\uC815\uC744 \uC11C\uBE44\uC2A4
+    \uD654\uBA74\uC5D0 \uAC8C\uC7AC\uD558\uAC70\uB098 \uC804\uC790\uC6B0\uD3B8 \uB4F1\uC744
+    \uD1B5\uD558\uC5EC \uB3D9 \uD68C\uC6D0\uC5D0\uAC8C \uD1B5\uC9C0\uD569\uB2C8\uB2E4.\uD68C\uC0AC\uAC00
+    \uC81C\uACF5\uD558\uB294 \uC11C\uBE44\uC2A4\uB85C \uC778\uD558\uC5EC \uD68C\uC6D0\uC5D0\uAC8C
+    \uC190\uD574\uAC00 \uBC1C\uC0DD\uD55C \uACBD\uC6B0 \uADF8\uB7EC\uD55C \uC190\uD574\uAC00
+    \uD68C\uC0AC\uC758 \uACE0\uC758\uB098 \uC911\uACFC\uC2E4\uC5D0 \uAE30\uD574 \uBC1C\uC0DD\uD55C
+    \uACBD\uC6B0\uC5D0 \uD55C\uD558\uC5EC \uD68C\uC0AC\uC5D0\uC11C \uCC45\uC784\uC744
+    \uBD80\uB2F4\uD558\uBA70, \uADF8 \uCC45\uC784\uC758 \uBC94\uC704\uB294 \uD1B5\uC0C1
+    \uC190\uD574\uC5D0 \uD55C\uD569\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uC815\uBCF4\uD1B5\uC2E0\uB9DD
+    \uC774\uC6A9\uCD09\uC9C4 \uBC0F \uC815\uBCF4\uBCF4\uD638\uC5D0 \uAD00\uD55C \uBC95\uB960,
+    \uD1B5\uC2E0\uBE44\uBC00\uBCF4\uD638\uBC95, \uC804\uAE30\uD1B5\uC2E0\uC0AC\uC5C5\uBC95
+    \uB4F1 \uC11C\uBE44\uC2A4\uC758 \uC6B4\uC601, \uC720\uC9C0\uC640 \uAD00\uB828
+    \uC788\uB294 \uBC95\uADDC\uB97C \uC900\uC218\uD569\uB2C8\uB2E4.\n\n\uC81C14\uC870
+    (\uD68C\uC6D0\uC758 \uC758\uBB34)\n\n\uD68C\uC6D0\uC740 \uC11C\uBE44\uC2A4\uB97C
+    \uC774\uC6A9\uD560 \uB54C \uB2E4\uC74C \uAC01 \uD638\uC758 \uD589\uC704\uB97C
+    \uD558\uC5EC\uC11C\uB294 \uC544\uB2C8 \uB429\uB2C8\uB2E4.\uC774\uC6A9 \uC2E0\uCCAD
+    \uB610\uB294 \uBCC0\uACBD \uC2DC \uD5C8\uC704 \uC0AC\uC2E4\uC744 \uAE30\uC7AC\uD558\uAC70\uB098,
+    \uB2E4\uB978 \uD68C\uC6D0\uC758 \uC544\uC774\uB514(ID) \uBC0F \uBE44\uBC00\uBC88\uD638\uB97C
+    \uB3C4\uC6A9, \uBD80\uC815\uD558\uAC8C \uC0AC\uC6A9\uD558\uB294 \uD589\uC704\uD68C\uC0AC\uC758
+    \uC11C\uBE44\uC2A4 \uC815\uBCF4\uB97C \uC774\uC6A9\uD558\uC5EC \uC5BB\uC740 \uC815\uBCF4\uB97C
+    \uD68C\uC0AC\uC758 \uC0AC\uC804 \uC2B9\uB099 \uC5C6\uC774 \uBCF5\uC81C \uB610\uB294
+    \uC720\uD1B5\uC2DC\uD0A4\uAC70\uB098 \uC0C1\uC5C5\uC801\uC73C\uB85C \uC774\uC6A9\uD558\uB294
+    \uD589\uC704\uD0C0\uC778\uC758 \uBA85\uC608\uB97C \uC190\uC0C1\uC2DC\uD0A4\uAC70\uB098
+    \uBD88\uC774\uC775\uC744 \uC8FC\uB294 \uD589\uC704\uAC8C\uC2DC\uD310 \uB4F1\uC5D0
+    \uC74C\uB780\uBB3C\uC744 \uAC8C\uC7AC\uD558\uAC70\uB098 \uC74C\uB780\uC0AC\uC774\uD2B8\uB97C
+    \uC5F0\uACB0(\uB9C1\uD06C)\uD558\uB294 \uD589\uC704\uD68C\uC0AC\uC758 \uC800\uC791\uAD8C,
+    \uC81C3\uC790\uC758 \uC800\uC791\uAD8C \uB4F1 \uAE30\uD0C0 \uAD8C\uB9AC\uB97C
+    \uCE68\uD574\uD558\uB294 \uD589\uC704\uC2A4\uD2B8\uB9AC\uBC0D \uB610\uB294 \uB2E4\uC6B4\uB85C\uB4DC\uB97C
+    \uD1B5\uD558\uC5EC \uC81C\uACF5\uBC1B\uC740 \uC800\uC791\uBB3C\uC744 \uC601\uB9AC\uB97C
+    \uBAA9\uC801\uC73C\uB85C \uD558\uB294 \uC601\uC5C5\uC7A5\uACFC \uB9E4\uC7A5 \uB4F1\uC5D0\uC11C
+    \uC81C3\uC790\uC5D0\uAC8C \uC7AC\uC0DD \uB4F1\uC758 \uBC29\uBC95\uC73C\uB85C
+    \uC774\uC6A9\uD558\uB294 \uD589\uC704\uACF5\uACF5\uC9C8\uC11C \uBC0F \uBBF8\uD48D\uC591\uC18D\uC5D0
+    \uC704\uBC18\uB418\uB294 \uB0B4\uC6A9\uC758 \uC815\uBCF4, \uBB38\uC7A5, \uB3C4\uD615,
+    \uC74C\uC131 \uB4F1\uC744 \uD0C0\uC778\uC5D0\uAC8C \uC720\uD3EC\uD558\uB294 \uD589\uC704\uC11C\uBE44\uC2A4\uC640
+    \uAD00\uB828\uB41C \uC11C\uBE44\uC758 \uC624\uB3D9\uC791\uC774\uB098 \uC815\uBCF4
+    \uB4F1\uC758 \uD30C\uAD34 \uBC0F \uD63C\uB780\uC744 \uC720\uBC1C\uC2DC\uD0A4\uB294
+    \uCEF4\uD4E8\uD130 \uBC14\uC774\uB7EC\uC2A4 \uAC10\uC5FC \uC790\uB8CC\uB97C \uB4F1\uB85D
+    \uB610\uB294 \uC720\uD3EC\uD558\uB294 \uD589\uC704\uC11C\uBE44\uC2A4 \uC6B4\uC601\uC744
+    \uACE0\uC758\uB85C \uBC29\uD574\uD558\uAC70\uB098 \uC11C\uBE44\uC2A4\uC758 \uC548\uC815\uC801
+    \uC6B4\uC601\uC744 \uBC29\uD574\uD560 \uC218 \uC788\uB294 \uC815\uBCF4 \uBC0F
+    \uC218\uC2E0\uC790\uC758 \uBA85\uC2DC\uC801\uC778 \uC218\uC2E0\uAC70\uBD80\uC758\uC0AC\uC5D0
+    \uBC18\uD558\uC5EC \uAD11\uACE0\uC131 \uC815\uBCF4\uB97C \uC804\uACF5\uD558\uB294
+    \uD589\uC704\uC790\uAE30 \uB610\uB294 \uD0C0\uC778\uC5D0\uAC8C \uC7AC\uC0B0\uC0C1\uC758
+    \uC774\uC775\uC744 \uC8FC\uAC70\uB098 \uD0C0\uC778\uC5D0\uAC8C \uC190\uD574\uB97C
+    \uAC00\uD560 \uBAA9\uC801\uC73C\uB85C \uD5C8\uC704\uC758 \uC815\uBCF4\uB97C \uC720\uD1B5\uC2DC\uD0A4\uB294
+    \uD589\uC704\uC724\uB77D\uD589\uC704\uB97C \uC54C\uC120\uD558\uAC70\uB098 \uC74C\uD589\uC744
+    \uB9E4\uAC1C\uD558\uB294 \uB0B4\uC6A9\uC758 \uC815\uBCF4\uB97C \uC720\uD1B5\uC2DC\uD0A4\uB294
+    \uD589\uC704\uC218\uCE58\uC2EC\uC774\uB098 \uD610\uC624\uAC10 \uB610\uB294 \uACF5\uD3EC\uC2EC\uC744
+    \uC77C\uC73C\uD0A4\uB294 \uB9D0\uC774\uB098 \uC74C\uD5A5, \uAE00\uC774\uB098
+    \uD654\uC0C1 \uB610\uB294 \uC601\uC0C1\uC744 \uACC4\uC18D\uD574\uC11C \uC0C1\uB300\uBC29\uC5D0\uAC8C
+    \uB3C4\uB2EC\uD558\uAC8C \uD568\uC73C\uB85C\uC368 \uC0C1\uB300\uBC29\uC758 \uC77C\uC0C1\uC801
+    \uC0DD\uD65C\uC744 \uBC29\uD574\uD558\uB294 \uD589\uC704\uC11C\uBE44\uC2A4\uC5D0
+    \uAC8C\uC2DC\uB41C \uC815\uBCF4\uB97C \uBCC0\uACBD\uD558\uB294 \uD589\uC704\uAD00\uB828
+    \uBC95\uB839\uC5D0 \uC758\uD558\uC5EC \uADF8 \uC804\uC1A1 \uB610\uB294 \uAC8C\uC2DC\uAC00
+    \uAE08\uC9C0\uB418\uB294 \uC815\uBCF4(\uCEF4\uD4E8\uD130 \uD504\uB85C\uADF8\uB7A8
+    \uD3EC\uD568)\uC758 \uC804\uC1A1 \uB610\uB294 \uAC8C\uC2DC \uD589\uC704\uAE30\uD0C0
+    \uBD88\uBC95\uC801\uC774\uAC70\uB098 \uBD80\uB2F9\uD55C \uD589\uC704\uD68C\uC6D0\uC740
+    \uAD00\uACC4 \uBC95\uB839, \uBCF8 \uC57D\uAD00\uC758 \uADDC\uC815, \uC774\uC6A9\uC548\uB0B4
+    \uBC0F \uC11C\uBE44\uC2A4\uC0C1\uC5D0 \uACF5\uC9C0\uD55C \uC8FC\uC758\uC0AC\uD56D,
+    \uD68C\uC0AC\uAC00 \uD1B5\uC9C0\uD558\uB294 \uC0AC\uD56D \uB4F1\uC744 \uC900\uC218\uD558\uC5EC\uC57C
+    \uD558\uBA70, \uAE30\uD0C0 \uD68C\uC0AC\uC758 \uC5C5\uBB34\uC5D0 \uBC29\uD574\uB418\uB294
+    \uD589\uC704\uB97C \uD558\uC5EC\uC11C\uB294 \uC544\uB2C8 \uB429\uB2C8\uB2E4.\uD68C\uC6D0\uC740
+    \uD68C\uC0AC\uC5D0\uC11C \uACF5\uC2DD\uC801\uC73C\uB85C \uC778\uC815\uD55C \uACBD\uC6B0\uB97C
+    \uC81C\uC678\uD558\uACE0\uB294 \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD558\uC5EC
+    \uC0C1\uD488\uC744 \uD310\uB9E4\uD558\uB294 \uC601\uC5C5 \uD65C\uB3D9\uC744 \uD560
+    \uC218 \uC5C6\uC73C\uBA70 \uD2B9\uD788 \uD574\uD0B9, \uAD11\uACE0\uB97C \uD1B5\uD55C
+    \uC218\uC775, \uC74C\uB780 \uC0AC\uC774\uD2B8\uB97C \uD1B5\uD55C \uC0C1\uC5C5\uD589\uC704,
+    \uC0C1\uC6A9 \uC18C\uD504\uD2B8\uC6E8\uC5B4 \uBD88\uBC95 \uBC30\uD3EC \uB4F1\uC744
+    \uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uC704\uBC18\uD558\uC5EC
+    \uBC1C\uC0DD\uD55C \uC601\uC5C5 \uD65C\uB3D9\uC758 \uACB0\uACFC \uBC0F \uC190\uC2E4,
+    \uAD00\uACC4\uAE30\uAD00\uC5D0 \uC758\uD55C \uAD6C\uC18D \uB4F1 \uBC95\uC801
+    \uC870\uCE58 \uB4F1\uC5D0 \uAD00\uD574\uC11C\uB294 \uD68C\uC0AC\uAC00 \uCC45\uC784\uC744
+    \uC9C0\uC9C0 \uC54A\uC73C\uBA70, \uD68C\uC6D0\uC740 \uC774\uC640 \uAC19\uC740
+    \uD589\uC704\uC640 \uAD00\uB828\uD558\uC5EC \uD68C\uC0AC\uC5D0 \uB300\uD558\uC5EC
+    \uC190\uD574\uBC30\uC0DD \uC758\uBB34\uB97C \uC9D1\uB2C8\uB2E4.\uD68C\uC6D0\uC740
+    \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC744 \uC704\uD574 \uB4F1\uB85D\uD560 \uACBD\uC6B0
+    \uD604\uC7AC\uC758 \uC0AC\uC2E4\uACFC \uC77C\uCE58\uD558\uB294 \uC644\uC804\uD55C
+    \uC815\uBCF4(\uC774\uD558 \u201C\uB4F1\uB85D\uC815\uBCF4\u201D)\uB97C \uC81C\uACF5\uD558\uC5EC\uC57C
+    \uD569\uB2C8\uB2E4.\uD68C\uC6D0\uC740 \uB4F1\uB85D\uC815\uBCF4\uC5D0 \uBCC0\uACBD\uC0AC\uD56D\uC774
+    \uBC1C\uC0DD\uD560 \uACBD\uC6B0 \uC989\uC2DC \uAC31\uC2E0\uD558\uC5EC\uC57C \uD569\uB2C8\uB2E4.
+    \uD68C\uC6D0\uC774 \uC81C\uACF5\uD55C \uB4F1\uB85D\uC815\uBCF4 \uBC0F \uAC31\uC2E0\uD55C
+    \uB4F1\uB85D\uC815\uBCF4\uAC00 \uBD80\uC815\uD655\uD560 \uACBD\uC6B0, \uAE30\uD0C0
+    \uD68C\uC6D0\uC774 \uBCF8 \uC870 \uC81C1\uD56D\uC5D0 \uBA85\uC2DC\uB41C \uD589\uC704\uB97C
+    \uD55C \uACBD\uC6B0\uC5D0 \uD68C\uC0AC\uB294 \uBCF8 \uC57D\uAD00 \uC81C23\uC870\uC5D0
+    \uC758\uD574 \uD68C\uC6D0\uC758 \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC744 \uC81C\uD55C
+    \uB610\uB294 \uC911\uC9C0 \uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC81C15\uC870
+    (\uD68C\uC6D0 \uC544\uC774\uB514(ID)\uC640 \uBE44\uBC00\uBC88\uD638(PASSWORD)
+    \uAD00\uB9AC\uC5D0 \uB300\uD55C \uC758\uBB34\uC640 \uCC45\uC784)\n\n\uD68C\uC0AC\uB294
+    \uC11C\uBE44\uC2A4 \uB0B4\uC5D0\uC11C \uC77C\uBD80 \uC11C\uBE44\uC2A4 \uC2E0\uCCAD
+    \uC2DC \uC774\uC6A9\uC694\uAE08\uC744 \uBD80\uACFC\uD560 \uC218 \uC788\uC73C\uBBC0\uB85C,
+    \uD68C\uC6D0\uC740 \uC544\uC774\uB514(ID)\uBC0F \uBE44\uBC00\uBC88\uD638(PASSWORD)
+    \uAD00\uB9AC\uB97C \uCCA0\uC800\uD788 \uD558\uC5EC\uC57C \uD569\uB2C8\uB2E4.\uD68C\uC6D0
+    \uC544\uC774\uB514(ID)\uC640 \uBE44\uBC00\uBC88\uD638(PASSWORD)\uC758 \uAD00\uB9AC
+    \uC18C\uD640, \uBD80\uC815 \uC0AC\uC6A9\uC5D0 \uC758\uD558\uC5EC \uBC1C\uC0DD\uD558\uB294
+    \uBAA8\uB4E0 \uACB0\uACFC\uC5D0 \uB300\uD55C \uCC45\uC784\uC740 \uD68C\uC6D0
+    \uBCF8\uC778\uC5D0\uAC8C \uC788\uC73C\uBA70, \uD68C\uC0AC\uC758 \uC2DC\uC2A4\uD15C
+    \uACE0\uC7A5 \uB4F1 \uD68C\uC0AC\uC758 \uCC45\uC784 \uC788\uB294 \uC0AC\uC720\uB85C
+    \uBC1C\uC0DD\uD558\uB294 \uBB38\uC81C\uC5D0 \uB300\uD574\uC11C\uB294 \uD68C\uC0AC\uAC00
+    \uCC45\uC784\uC744 \uC9D1\uB2C8\uB2E4.\uD68C\uC6D0\uC740 \uBCF8\uC778\uC758 \uC544\uC774\uB514(ID)
+    \uBC0F \uBE44\uBC00\uBC88\uD638(PASSWORD)\uB97C \uC81C3\uC790\uC5D0\uAC8C \uC774\uC6A9\uD558\uAC8C
+    \uD574\uC11C\uB294 \uC548\uB418\uBA70, \uD68C\uC6D0 \uBCF8\uC778\uC758 \uC544\uC774\uB514(ID)
+    \uBC0F \uBE44\uBC00\uBC88\uD638(PASSWORD)\uB97C \uB3C4\uB09C \uB2F9\uD558\uAC70\uB098
+    \uC81C3\uC790\uAC00 \uC0AC\uC6A9\uD558\uACE0 \uC788\uC74C\uC744 \uC778\uC9C0\uD558\uB294
+    \uACBD\uC6B0\uC5D0\uB294 \uBC14\uB85C \uD68C\uC0AC\uC5D0 \uD1B5\uBCF4\uD558\uACE0
+    \uD68C\uC0AC\uC758 \uC548\uB0B4\uAC00 \uC788\uB294 \uACBD\uC6B0 \uADF8\uC5D0
+    \uB530\uB77C\uC57C \uD569\uB2C8\uB2E4.\uD68C\uC6D0\uC758 \uC544\uC774\uB514(ID)\uB294
+    \uD68C\uC0AC\uC758 \uC0AC\uC804 \uB3D9\uC758 \uC5C6\uC774 \uBCC0\uACBD\uD560
+    \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.\n\n\uC81C16\uC870 (\uD68C\uC6D0\uC5D0 \uB300\uD55C
+    \uD1B5\uC9C0)\n\n\uD68C\uC6D0\uC5D0 \uB300\uD55C \uD1B5\uC9C0\uB97C \uD558\uB294
+    \uACBD\uC6B0 \uD68C\uC0AC\uB294 \uD68C\uC6D0\uC774 \uB4F1\uB85D\uD55C \uC804\uC790\uC6B0\uD3B8
+    \uC8FC\uC18C \uB4F1 \uAE30\uD0C0\uC758 \uBC29\uBC95\uC73C\uB85C \uD68C\uC6D0\uC5D0\uAC8C
+    \uC774\uB97C \uD1B5\uC9C0\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uD68C\uC0AC\uB294
+    \uBD88\uD2B9\uC815 \uB2E4\uC218 \uD68C\uC6D0\uC5D0 \uB300\uD55C \uD1B5\uC9C0\uC758
+    \uACBD\uC6B0 \uC11C\uBE44\uC2A4 \uACF5\uC9C0 \uAC8C\uC2DC\uD310 \uB4F1\uC5D0
+    \uAC8C\uC2DC\uD568\uC73C\uB85C\uC368 \uAC1C\uBCC4 \uD1B5\uC9C0\uC5D0 \uAC08\uC74C\uD560
+    \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC81C17\uC870 (\uC774\uC6A9\uC790\uC758
+    \uAC1C\uC778\uC815\uBCF4\uBCF4\uD638)\n\n\uD68C\uC0AC\uB294 \uAD00\uB828\uBC95\uB839\uC774
+    \uC815\uD558\uB294 \uBC14\uC5D0 \uB530\uB77C\uC11C \uD68C\uC6D0 \uB4F1\uB85D\uC815\uBCF4\uB97C
+    \uD3EC\uD568\uD55C \uD68C\uC6D0\uC758 \uAC1C\uC778\uC815\uBCF4\uB97C \uBCF4\uD638\uD558\uAE30
+    \uC704\uD558\uC5EC \uB178\uB825\uD569\uB2C8\uB2E4. \uD68C\uC6D0\uC758 \uAC1C\uC778\uC815\uBCF4\uBCF4\uD638\uC5D0
+    \uAD00\uD574\uC11C\uB294 \uAD00\uB828\uBC95\uB839 \uBC0F \uD68C\uC0AC\uAC00 \uC815\uD558\uB294
+    \u201C\uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\u201D\uC5D0 \uC815\uD55C
+    \uBC14\uC5D0 \uC758\uD569\uB2C8\uB2E4.\n\n\uC81C18\uC870 (\uAC1C\uC778\uC815\uBCF4\uC758
+    \uC704\uD0C1)\n\n\uD68C\uC0AC\uB294 \uC218\uC9D1\uB41C \uAC1C\uC778\uC815\uBCF4\uC758
+    \uCC98\uB9AC \uBC0F \uAD00\uB9AC \uB4F1\uC758 \uC5C5\uBB34(\uC774\uD558 \u201C\uC5C5\uBB34\u201D)\uB97C
+    \uC218\uD589\uD568\uC744 \uC6D0\uCE59\uC73C\uB85C \uD558\uB098, \uD544\uC694\uD55C
+    \uACBD\uC6B0 \uC5C5\uBB34\uC758 \uC77C\uBD80 \uB610\uB294 \uC804\uBD80\uB97C
+    \uD68C\uC0AC\uAC00 \uC120\uC815\uD55C \uD68C\uC0AC\uC5D0 \uC704\uD0C1\uD560 \uC218
+    \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC81C5\uC7A5 \uACC4\uC57D\uD574\uC9C0 \uBC0F \uC774\uC6A9\uC81C\uD55C\n\n\uC81C19\uC870
+    (\uAC1C\uC778\uC815\uBCF4\uC758 \uC704\uD0C1)\n\n\uD68C\uC6D0\uC774 \uC11C\uBE44\uC2A4
+    \uC774\uC6A9\uACC4\uC57D\uC744 \uD574\uC9C0\uD558\uACE0\uC790 \uD560 \uACBD\uC6B0\uC5D0\uB294
+    \uBCF8\uC778\uC774 \uC11C\uBE44\uC2A4 \uC0C1\uC5D0\uC11C \uD68C\uC0AC\uAC00 \uC815\uD55C
+    \uBCC4\uB3C4\uC758 \uC774\uC6A9\uBC29\uBC95\uC73C\uB85C \uD68C\uC0AC\uC5D0 \uD574\uC9C0\uC2E0\uCCAD\uC744
+    \uD558\uC5EC\uC57C \uD569\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uD68C\uC6D0\uC774 \uC81C
+    17\uC870\uC5D0 \uADDC\uC815\uD55C \uD68C\uC6D0\uC758 \uC758\uBB34\uB97C \uC774\uD589\uD558\uC9C0
+    \uC54A\uC744 \uACBD\uC6B0 \uC0AC\uC804 \uD1B5\uC9C0 \uC5C6\uC774 \uC989\uC2DC
+    \uC774\uC6A9\uACC4\uC57D\uC744 \uD574\uC9C0\uD558\uAC70\uB098 \uB610\uB294 \uC11C\uBE44\uC2A4
+    \uC774\uC6A9\uC744 \uC911\uC9C0\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uD68C\uC6D0\uC774
+    \uC774\uC6A9\uACC4\uC57D\uC744 \uD574\uC9C0\uD558\uACE0\uC790 \uD558\uB294 \uACBD\uC6B0\uC5D0\uB294
+    \uD68C\uC6D0 \uBCF8\uC778\uC774 \uC774\uC6A9\uACC4\uC57D \uD574\uC9C0\uC2E0\uCCAD(\uD68C\uC6D0\uD0C8\uD1F4)\uC744
+    \uD558\uC5EC\uC57C \uD569\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uD68C\uC6D0\uC774 \uC774\uC6A9\uACC4\uC57D\uC744
+    \uCCB4\uACB0\uD558\uC5EC \uC544\uC774\uB514(ID)\uC640 \uBE44\uBC00\uBC88\uD638(PASSWORD)\uB97C
+    \uBD80\uC5EC \uBC1B\uC740 \uD6C4\uC5D0\uB77C\uB3C4 \uD68C\uC6D0\uC758 \uC790\uACA9\uC5D0
+    \uB530\uB978 \uC11C\uBE44\uC2A4 \uC774\uC6A9\uC744 \uC81C\uD55C\uD560 \uC218
+    \uC788\uC2B5\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uD68C\uC6D0 \uAC00\uC785 \uD6C4
+    6\uAC1C\uC6D4 \uB3D9\uC548 \uC11C\uBE44\uC2A4 \uC0AC\uC6A9 \uC774\uB825\uC774
+    \uC5C6\uB294 \uD68C\uC6D0\uC5D0 \uB300\uD574 \uC0AC\uC6A9\uC758\uC0AC\uB97C \uBB3B\uB294
+    \uACE0\uC9C0\uB97C \uD558\uACE0, \uD68C\uC0AC\uAC00 \uC815\uD55C \uAE30\uD55C
+    \uB0B4\uC5D0 \uB2F5\uBCC0\uC774 \uC5C6\uB294 \uACBD\uC6B0 \uC774\uC6A9 \uACC4\uC57D\uC744
+    \uD574\uC9C0\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uBCF8 \uC870 \uC81C2\uD56D
+    \uBC0F \uC81C4\uD56D, \uC81C5\uD56D\uC758 \uD68C\uC0AC \uC870\uCE58\uC5D0 \uB300\uD558\uC5EC
+    \uD68C\uC6D0\uC740 \uD68C\uC0AC\uAC00 \uC815\uD55C \uC808\uCC28\uC5D0 \uB530\uB77C
+    \uC774\uC758 \uC2E0\uCCAD\uC744 \uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\uBCF8
+    \uC870 \uC81C6\uD56D\uC758 \uC774\uC758\uAC00 \uC815\uB2F9\uD558\uB2E4\uACE0
+    \uD68C\uC0AC\uAC00 \uC778\uC815\uD558\uB294 \uACBD\uC6B0, \uD68C\uC0AC\uB294
+    \uC989\uC2DC \uC11C\uBE44\uC2A4\uC758 \uC774\uC6A9\uC744 \uC7AC\uAC1C\uD569\uB2C8\uB2E4.\n\n\uC81C20\uC870
+    (\uC591\uB3C4 \uAE08\uC9C0)\n\n\uD68C\uC6D0\uC740 \uC11C\uBE44\uC2A4\uC758 \uC774\uC6A9\uAD8C\uD55C,
+    \uAE30\uD0C0 \uC774\uC6A9 \uACC4\uC57D\uC0C1 \uC9C0\uC704\uB97C \uD0C0\uC778\uC5D0\uAC8C
+    \uC591\uB3C4, \uC99D\uC5EC\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.\n\n\uC81C6\uC7A5
+    \uC190\uD574\uBC30\uC0C1 \uB4F1\n\n\uC81C21\uC870 (\uC190\uD574\uBC30\uC0C1)\n\n\uD68C\uC6D0\uC774
+    \uBCF8 \uC57D\uAD00\uC758 \uADDC\uC815\uC744 \uC704\uBC18\uD568\uC73C\uB85C \uC778\uD558\uC5EC
+    \uD68C\uC0AC\uC5D0 \uC190\uD574\uAC00 \uBC1C\uC0DD\uD558\uAC8C \uB418\uB294 \uACBD\uC6B0,
+    \uBCF8 \uC57D\uAD00\uC744 \uC704\uBC18\uD55C \uD68C\uC6D0\uC740 \uD68C\uC0AC\uC5D0
+    \uBC1C\uC0DD\uD558\uB294 \uBAA8\uB4E0 \uC190\uD574\uB97C \uBC30\uC0C1\uD558\uC5EC\uC57C
+    \uD569\uB2C8\uB2E4.\uD68C\uC6D0\uC774 \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD568\uC5D0
+    \uC788\uC5B4 \uD589\uD55C \uBD88\uBC95\uD589\uC704\uB098 \uBCF8 \uC57D\uAD00
+    \uC704\uBC18\uD589\uC704\uB85C \uC778\uD558\uC5EC \uD68C\uC0AC\uAC00 \uB2F9\uD574
+    \uD68C\uC6D0 \uC774\uC678\uC758 \uC81C3\uC790\uB85C\uBD80\uD130 \uC190\uD574\uBC30\uC0C1
+    \uCCAD\uAD6C \uB610\uB294 \uC18C\uC1A1\uC744 \uBE44\uB86F\uD55C \uAC01\uC885
+    \uC774\uC758 \uC81C\uAE30\uB97C \uBC1B\uB294 \uACBD\uC6B0 \uB2F9\uD574 \uD68C\uC6D0\uC740
+    \uC790\uC2E0\uC758 \uCC45\uC784\uACFC \uBE44\uC6A9\uC73C\uB85C \uD68C\uC0AC\uB97C
+    \uBA74\uCC45 \uC2DC\uCF1C\uC57C \uD558\uBA70, \uD68C\uC0AC\uAC00 \uBA74\uCC45\uB418\uC9C0
+    \uBABB\uD55C \uACBD\uC6B0 \uB2F9\uD574 \uD68C\uC6D0\uC740 \uADF8\uB85C \uC778\uD558\uC5EC
+    \uD68C\uC0AC\uC5D0 \uBC1C\uC0DD\uD55C \uBAA8\uB4E0 \uC190\uD574\uB97C \uBC30\uC0C1\uD558\uC5EC\uC57C
+    \uD569\uB2C8\uB2E4.\n\n\uC81C22\uC870 (\uBA74\uCC45\uC0AC\uD56D)\n\n\uD68C\uC0AC\uB294
+    \uCC9C\uC7AC\uC9C0\uBCC0 \uB610\uB294 \uC774\uC5D0 \uC900\uD558\uB294 \uBD88\uAC00\uD56D\uB825\uC73C\uB85C
+    \uC778\uD558\uC5EC \uC11C\uBE44\uC2A4\uB97C \uC81C\uACF5\uD560 \uC218 \uC5C6\uB294
+    \uACBD\uC6B0\uC5D0\uB294 \uC11C\uBE44\uC2A4 \uC81C\uACF5\uC5D0 \uAD00\uD55C \uCC45\uC784\uC774
+    \uBA74\uC81C\uB429\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uD68C\uC6D0\uC758 \uADC0\uCC45\uC0AC\uC720\uB85C
+    \uC778\uD55C \uC11C\uBE44\uC2A4\uC758 \uC774\uC6A9\uC7A5\uC560\uC5D0 \uB300\uD558\uC5EC
+    \uCC45\uC784\uC744 \uC9C0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uD68C\uC6D0\uC774
+    \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD558\uC5EC \uAE30\uB300\uD558\uB294 \uC218\uC775\uC744
+    \uC0C1\uC2E4\uD55C \uAC83\uC5D0 \uB300\uD558\uC5EC \uCC45\uC784\uC744 \uC9C0\uC9C0
+    \uC54A\uC73C\uBA70 \uADF8 \uBC16\uC5D0 \uC11C\uBE44\uC2A4\uB97C \uD1B5\uD558\uC5EC
+    \uC5BB\uC740 \uC790\uB8CC\uB85C \uC778\uD55C \uC190\uD574 \uB4F1\uC5D0 \uB300\uD558\uC5EC\uB3C4
+    \uCC45\uC784\uC744 \uC9C0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uD68C\uC0AC\uB294
+    \uD68C\uC6D0\uC774 \uC11C\uBE44\uC2A4\uC5D0 \uAC8C\uC7AC\uD55C \uC815\uBCF4,
+    \uC790\uB8CC, \uC0AC\uC2E4\uC758 \uC2E0\uB8B0\uB3C4 \uBC0F \uC815\uD655\uC131
+    \uB4F1 \uB0B4\uC6A9\uC5D0 \uB300\uD558\uC5EC\uB294 \uCC45\uC784\uC744 \uC9C0\uC9C0
+    \uC54A\uC2B5\uB2C8\uB2E4.\uD68C\uC0AC\uB294 \uD68C\uC6D0 \uC0C1\uD638\uAC04 \uB610\uB294
+    \uD68C\uC6D0\uACFC \uC81C3\uC790 \uC0C1\uD638\uAC04\uC5D0 \uC11C\uBE44\uC2A4\uB97C
+    \uB9E4\uAC1C\uB85C \uBC1C\uC0DD\uD55C \uBD84\uC7C1\uC5D0 \uB300\uD574\uC11C\uB294
+    \uAC1C\uC785\uD560 \uC758\uBB34\uAC00 \uC5C6\uC73C\uBA70 \uC774\uB85C \uC778\uD55C
+    \uC190\uD574\uB97C \uBC30\uC0C1\uD560 \uCC45\uC784\uB3C4 \uC5C6\uC2B5\uB2C8\uB2E4.\n\n\uC81C23\uC870
+    (\uAD00\uD560\uBC95\uC6D0)\n\n\uC11C\uBE44\uC2A4 \uC774\uC6A9\uAD00 \uAD00\uB828\uD558\uC5EC
+    \uD68C\uC0AC\uC640 \uD68C\uC6D0 \uC0AC\uC774\uC5D0 \uBD84\uC7C1\uC774 \uBC1C\uC0DD\uD55C
+    \uACBD\uC6B0, \uD68C\uC0AC\uC640 \uD68C\uC6D0\uC740 \uBD84\uC7C1\uC758 \uD574\uACB0\uC744
+    \uC704\uD574 \uC131\uC2E4\uD788 \uD611\uC758 \uD569\uB2C8\uB2E4.\uBCF8 \uC870
+    \uC81C1\uD56D\uC758 \uD611\uC758\uC5D0\uC11C\uB3C4 \uBD84\uC7C1\uC774 \uD574\uACB0\uB418\uC9C0
+    \uC54A\uC744 \uACBD\uC6B0 \uD68C\uC0AC\uC758 \uBCF8\uC0AC \uC18C\uC7AC\uC9C0\uB97C
+    \uAD00\uD560\uD558\uB294 \uBC95\uC6D0\uC744 \uC804\uC18D \uAD00\uD560\uBC95\uC6D0\uC73C\uB85C
+    \uD569\uB2C8\uB2E4.\uBD80\uCE59\uC774 \uC57D\uAD00\uC740 2020\uB144 03\uC6D4
+    12\uC77C\uBD80\uD130 \uD6A8\uB825\uC774 \uBC1C\uC0DD\uD569\uB2C8\uB2E4.\n\n\n\n\n\uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\n\n\u321C\uCF54\uD32C\uAE00\uB85C\uBC8C(\uC774\uD558
+    \u2018\uD68C\uC0AC\u2019)\uC740 \uD1B5\uC2E0\uBE44\uBC00\uBCF4\uD638\uBC95, \uC804\uAE30\uD1B5\uC2E0\uC0AC\uC5C5\uBC95,
+    \uAC1C\uC778\uC815\uBCF4 \uBCF4\uD638\uBC95, \uC815\uBCF4\uD1B5\uC2E0\uB9DD \uC774\uC6A9\uCD09\uC9C4
+    \uBC0F \uC815\uBCF4\uBCF4\uD638 \uB4F1\uC5D0 \uAD00\uD55C \uBC95\uB960 \uB4F1
+    \uC815\uBCF4\uD1B5\uC2E0\uC11C\uBE44\uC2A4\uC81C\uACF5\uC790\uAC00 \uC900\uC218\uD558\uC5EC\uC57C
+    \uD560 \uAD00\uB828 \uBC95\uB839\uC0C1\uC758 \uAC1C\uC778\uC815\uBCF4\uBCF4\uD638
+    \uADDC\uC815\uC744 \uC900\uC218\uD558\uBA70, \uAD00\uB828 \uBC95\uB839\uC5D0
+    \uC758\uAC70\uD55C \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC744 \uC815\uD558\uC5EC
+    \uC774\uC6A9\uC790 \uAD8C\uC775 \uBCF4\uD638\uC5D0 \uCD5C\uC120\uC744 \uB2E4\uD558\uACE0
+    \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC81C1\uC870 \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC758
+    \uC758\uC758\n\n\uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC740, \uAC1C\uC778\uC815\uBCF4\uC640
+    \uAD00\uB828\uD558\uC5EC \uD68C\uC0AC\uC640 \uC774\uC6A9\uC790\uAC04\uC758 \uAD8C\uB9AC
+    \uBC0F \uC758\uBB34 \uAD00\uACC4\uB97C \uADDC\uC815\uD558\uC5EC \uC774\uC6A9\uC790\uC758
+    \u2018\uAC1C\uC778\uC815\uBCF4\uC790\uAE30\uACB0\uC815\uAD8C\u2019\uC744 \uBCF4\uC7A5\uD558\uB294
+    \uC218\uB2E8\uC774 \uB429\uB2C8\uB2E4.\u2018\uD68C\uC0AC\u2019\uAC00 \uC5B4\uB5A4
+    \uC815\uBCF4\uB97C \uC218\uC9D1\uD558\uACE0, \uC218\uC9D1\uD55C \uC815\uBCF4\uB97C
+    \uC5B4\uB5BB\uAC8C \uC0AC\uC6A9\uD558\uBA70, \uD544\uC694\uC5D0 \uB530\uB77C
+    \uB204\uAD6C\uC640 \uC774\uB97C \uACF5\uC720(\u2018\uC704\uD0C1 \uB610\uB294
+    \uC81C\uACF5\u2019)\uD558\uBA70, \uC774\uC6A9\uBAA9\uC801\uC744 \uB2EC\uC131\uD55C
+    \uC815\uBCF4\uB97C \uC5B8\uC81C\xB7\uC5B4\uB5BB\uAC8C \uD30C\uAE30\uD558\uB294\uC9C0
+    \uB4F1 \uC774\uC6A9\uC790\uC758 \u2018\uAC1C\uC778\uC815\uBCF4\u2019\uC640 \uAD00\uB828\uD55C
+    \uC815\uBCF4\uB97C \uD22C\uBA85\uD558\uAC8C \uC548\uB0B4\uD569\uB2C8\uB2E4.\uC815\uBCF4\uC8FC\uCCB4\uB85C\uC11C
+    \uC774\uC6A9\uC790\uB294 \uC790\uC2E0\uC758 \uAC1C\uC778\uC815\uBCF4\uC5D0 \uB300\uD574
+    \uC5B4\uB5A4 \uAD8C\uB9AC\uB97C \uAC00\uC9C0\uACE0 \uC788\uB294\uC9C0, \uB098\uC758
+    \uAD8C\uB9AC\uB97C \uC5B4\uB5A4 \uBC29\uBC95\uACFC \uC808\uCC28\uB85C \uD589\uC0AC\uD560
+    \uC218 \uC788\uB294\uC9C0\uB97C \uC54C\uB824\uB4DC\uB9BD\uB2C8\uB2E4.\uAC1C\uC778\uC815\uBCF4
+    \uCE68\uD574\uC0AC\uACE0\uAC00 \uBC1C\uC0DD\uD558\uB294 \uACBD\uC6B0, \uCD94\uAC00\uC801\uC778
+    \uD53C\uD574\uB97C \uC608\uBC29\uACFC, \uC774\uBBF8 \uBC1C\uC0DD\uD55C \uD53C\uD574\uC758
+    \uBCF5\uAD6C\uB97C \uC704\uD574 \uB204\uAD6C\uC5D0\uAC8C \uC5F0\uB77D\uD558\uC5EC
+    \uC5B4\uB5A4 \uB3C4\uC6C0\uC744 \uBC1B\uC744 \uC218 \uC788\uB294\uC9C0 \uBC29\uBC95\uACFC,
+    \uC808\uCC28\uB97C \uC54C\uB824\uB4DC\uB9BD\uB2C8\uB2E4.\uC774 \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC5D0\uC11C
+    \uC0AC\uC6A9\uD558\uB294 \uC6A9\uC5B4\uC758 \uB73B\uC740 \uAD00\uB828 \uBC95\uB839
+    \uBC0F \uB2F9 \uC0AC\uC758 \uC774\uC6A9\uC57D\uAD00\uC5D0\uC11C \uC815\uD55C
+    \uBC14\uC5D0 \uB530\uB974\uBA70, \uADF8 \uBC16\uC758 \uC0AC\uD56D\uC740 \uC77C\uBC18\uC801\uC778
+    \uC0C1\uAD00\uB840\uC5D0 \uB530\uB985\uB2C8\uB2E4.\n\n\uC81C2\uC870 \uC218\uC9D1\uB418\uB294
+    \uAC1C\uC778\uC815\uBCF4 \uBC0F \uC218\uC9D1\uBC29\uBC95\n\n\uC218\uC9D1\uD558\uB294
+    \uAC1C\uC778\uC815\uBCF4\uC758 \uD56D\uBAA9\uD68C\uC0AC\uB294 \uC11C\uBE44\uC2A4
+    \uAC00\uC785 \uC2DC \uAC01\uC885 \uC11C\uBE44\uC2A4\uC758 \uC81C\uACF5\uC744
+    \uC704\uD574 \uCD5C\uCD08 \uC11C\uBE44\uC2A4 \uAC00\uC785 \uB2F9\uC2DC \uC544\uB798\uC640
+    \uAC19\uC740 \uAC1C\uC778\uC815\uBCF4\uB97C \uC218\uC9D1\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.
+    \u2014 \uAE30\uAE30 \uACE0\uC720\uBC88\uD638(UUID)\uC11C\uBE44\uC2A4 \uC774\uC6A9\uACFC\uC815\uC774\uB098
+    \uC0AC\uC5C5\uCC98\uB9AC \uACFC\uC815\uC5D0\uC11C \uC544\uB798\uC640 \uAC19\uC740
+    \uC815\uBCF4\uB4E4\uC774 \uC790\uB3D9\uC73C\uB85C \uC0DD\uC131\uB418\uC5B4 \uC218\uC9D1\uB420
+    \uC218 \uC788\uC2B5\uB2C8\uB2E4. \u2014 IP\uC8FC\uC18C, \uCFE0\uD0A4, \uBC29\uBB38\uAE30\uB85D,
+    \uC11C\uBE44\uC2A4 \uC774\uC6A9 \uAE30\uB85D, \uBD88\uB7C9 \uC774\uC6A9 \uAE30\uB85D
+    \uB4F1\uAC1C\uC778\uC815\uBCF4 \uC218\uC9D1 \uBC29\uBC95 : \uD68C\uC0AC\uB294
+    \uB2E4\uC74C\uACFC \uAC19\uC740 \uBC29\uBC95\uC73C\uB85C \uAC1C\uC778\uC815\uBCF4\uB97C
+    \uC218\uC9D1\uD569\uB2C8\uB2E4.\uD648\uD398\uC774\uC9C0, \uC560\uD50C\uB9AC\uCF00\uC774\uC158,
+    \uC11C\uBA74\uC591\uC2DD, \uD329\uC2A4, \uC804\uD654, \uC0C1\uB2F4 \uAC8C\uC2DC\uD310,
+    \uC774\uBA54\uC77C\uD50C\uB7AB\uD3FC\uC0AC\uC5C5\uC790 \uBC0F \uD611\uB825\uD68C\uC0AC\uB85C\uBD80\uD130\uC758
+    \uC81C\uACF5\uC0DD\uC131\uC815\uBCF4 \uC218\uC9D1 \uD234\uC744 \uD1B5\uD55C \uC218\uC9D1\n\n\uC81C3\uC870
+    \uAC1C\uC778\uC815\uBCF4\uC758 \uC218\uC9D1 \uBC0F \uC774\uC6A9\uBAA9\uC801\n\n\uD68C\uC0AC\uB294
+    \uB2E4\uC74C\uC758 \uBAA9\uC801\uC744 \uC704\uD558\uC5EC \uAC1C\uC778\uC815\uBCF4\uB97C
+    \uC218\uC9D1, \uC774\uC6A9\uD569\uB2C8\uB2E4. \uAC1C\uC778\uC815\uBCF4\uB294
+    \uB2E4\uC74C\uC758 \uBAA9\uC801 \uC774\uC678\uC758 \uC6A9\uB3C4\uB85C\uB294 \uC774\uC6A9\uB418\uC9C0
+    \uC54A\uC73C\uBA70, \uC774\uC6A9 \uBAA9\uC801\uC774 \uBCC0\uACBD\uB418\uB294
+    \uACBD\uC6B0\uC5D0\uB294 \uBCC4\uB3C4\uC758 \uB3D9\uC758\uB97C \uBC1B\uB294 \uB4F1
+    \uD544\uC694\uD55C \uC870\uCE58\uB97C \uC774\uD589\uD560 \uC608\uC815\uC785\uB2C8\uB2E4.\uD68C\uC6D0
+    \uAC00\uC785 \uBC0F \uAD00\uB9AC- \uD68C\uC6D0 \uAC00\uC785\uC758\uC0AC \uD655\uC778,
+    \uD68C\uC6D0\uC81C \uC11C\uBE44\uC2A4 \uC81C\uACF5\uC5D0 \uB530\uB978 \uBCF8\uC778
+    \uC2DD\uBCC4\uACFC \uC778\uC99D, \uD68C\uC6D0 \uC790\uACA9\uC758 \uC720\uC9C0\uC640
+    \uAD00\uB9AC, \uC81C\uD55C\uC801 \uBCF8\uC778\uD655\uC778\uC81C \uC2DC\uD589\uC5D0
+    \uB530\uB978 \uBCF8\uC778\uD655\uC778, \uC11C\uBE44\uC2A4 \uBD80\uC815\uC774\uC6A9
+    \uBC29\uC9C0, \uAC01\uC885 \uACE0\uC9C0, \uD1B5\uC9C0 \uBC0F \uACE0\uCDA9\uCC98\uB9AC
+    \uB4F1\uC744 \uBAA9\uC801\uC73C\uB85C \uAC1C\uC778\uC815\uBCF4\uB97C \uCC98\uB9AC\uD569\uB2C8\uB2E4.\uC7AC\uD654
+    \uB610\uB294 \uC11C\uBE44\uC2A4 \uC81C\uACF5- \uBB3C\uD488\uBC30\uC1A1, \uC11C\uBE44\uC2A4
+    \uC81C\uACF5, \uACC4\uC57D\uC11C \uBC0F \uCCAD\uAD6C\uC11C \uBC1C\uC1A1, \uCF58\uD150\uCE20
+    \uC81C\uACF5, \uB9DE\uCDA4\uC11C\uBE44\uC2A4 \uC81C\uACF5, \uBCF8\uC778\uC778\uC99D,
+    \uC5F0\uB839\uC778\uC99D, \uC694\uAE08\uACB0\uC81C\uC640 \uC815\uC0B0, \uCC44\uAD8C\uCD94\uC2EC
+    \uB4F1\uC744 \uBAA9\uC801\uC73C\uB85C \uAC1C\uC778\uC815\uBCF4\uB97C \uC218\uC9D1\uD569\uB2C8\uB2E4.\uACE0\uCDA9\uCC98\uB9AC-
+    \uBBFC\uC6D0\uC778\uC758 \uC2E0\uC6D0 \uD655\uC778, \uBBFC\uC6D0\uC0AC\uD56D
+    \uD655\uC778, \uC0AC\uC2E4\uC870\uC0AC\uB97C \uC704\uD55C \uC5F0\uB77D\uACFC
+    \uD1B5\uC9C0, \uCC98\uB9AC\uACB0\uACFC \uD1B5\uBCF4 \uB4F1\uC758 \uBAA9\uC801\uC73C\uB85C
+    \uAC1C\uC778\uC815\uBCF4\uB97C \uCC98\uB9AC\uD569\uB2C8\uB2E4.\n\n\uC81C4\uC870
+    \uAC1C\uC778\uC815\uBCF4\uC758 \uCC98\uB9AC \uBC0F \uBCF4\uC720\uAE30\uAC04\n\n\uD68C\uC0AC\uB294
+    \uBC95\uB839\uC5D0 \uB530\uB978 \uAC1C\uC778\uC815\uBCF4 \uBCF4\uC720, \uC774\uC6A9\uAE30\uAC04
+    \uB610\uB294 \uD68C\uC6D0\uC73C\uB85C\uBD80\uD130 \uAC1C\uC778\uC815\uBCF4\uB97C
+    \uC218\uC9D1\uC2DC\uC5D0 \uB3D9\uC758\uBC1B\uC740 \uAC1C\uC778\uC815\uBCF4 \uBCF4\uC720,
+    \uC774\uC6A9\uAE30\uAC04 \uB0B4\uC5D0\uC11C \uAC1C\uC778\uC815\uBCF4\uB97C \uCC98\uB9AC,
+    \uBCF4\uC720\uD569\uB2C8\uB2E4. \uAC01\uAC01\uC758 \uAC1C\uC778 \uC815\uBCF4
+    \uCC98\uB9AC \uBC0F \uBCF4\uC720 \uAE30\uC548\uC740 \uB2E4\uC74C\uACFC \uAC19\uC2B5\uB2C8\uB2E4.\uD68C\uC6D0
+    \uAC00\uC785 \uBC0F \uAD00\uB9AC : \uD68C\uC6D0 \uD0C8\uD1F4\uC2DC\uAE4C\uC9C0.
+    \uB2E4\uB9CC \uB2E4\uC74C\uC758 \uC0AC\uC720\uC5D0 \uD574\uB2F9\uD558\uB294 \uACBD\uC6B0\uC5D0\uB294
+    \uD574\uB2F9 \uC0AC\uC720 \uC885\uB8CC\uC2DC\uAE4C\uC9C0.\uAD00\uACC4 \uBC95\uB839
+    \uC704\uBC18\uC5D0 \uB530\uB978 \uC218\uC0AC, \uC870\uC0AC \uB4F1\uC774 \uC9C4\uD589\uC911\uC778
+    \uACBD\uC6B0\uC5D0\uB294 \uD574\uB2F9 \uC218\uC0AC, \uC870\uC0AC \uC885\uB8CC\uC2DC\uAE4C\uC9C0\uC11C\uBE44\uC2A4
+    \uC774\uC6A9\uC5D0 \uB530\uB978 \uCC44\uAD8C, \uCC44\uBB34\uAD00\uACC4 \uC794\uC874\uC2DC\uC5D0\uB294
+    \uD574\uB2F9 \uCC44\uAD8C, \uCC44\uBB34\uAD00\uACC4 \uC815\uC0B0\uC2DC\uAE4C\uC9C0\uC7AC\uD654
+    \uB610\uB294 \uC11C\uBE44\uC2A4 \uC81C\uACF5 : \uC7AC\uD654 \uBC0F \uC11C\uBE44\uC2A4
+    \uACF5\uAE09\uC644\uB8CC \uBC0F \uC694\uAE08\uACB0\uC81C, \uC815\uC0B0 \uC644\uB8CC\uC2DC\uAE4C\uC9C0.
+    \uB2E4\uB9CC \uB2E4\uC74C\uC758 \uC0AC\uC720\uC5D0 \uD574\uB2F9\uD558\uB294 \uACBD\uC6B0\uC5D0\uB294
+    \uD574\uB2F9 \uAE30\uAC04 \uC885\uB8CC\uC2DC\uAE4C\uC9C0\uC804\uC790\uC0C1\uAC70\uB798
+    \uB4F1\uC5D0\uC11C\uC758 \uC18C\uBE44\uC790 \uBCF4\uD638\uC5D0 \uAD00\uD55C \uBC95\uB960\uC5D0
+    \uB530\uB978 \uD45C\uC2DC.\uAD11\uACE0, \uACC4\uC57D\uB0B4\uC6A9 \uBC0F \uC774\uD589
+    \uB4F1 \uAC70\uB798\uC5D0 \uAD00\uD55C \uAE30\uB85D \u2014 \uD45C\uC2DC.\uAD11\uACE0\uC5D0
+    \uAD00\uD55C \uAE30\uB85D: 6\uAC1C\uC6D4 \u2014 \uACC4\uC57D \uB610\uB294 \uCCAD\uC57D\uCCA0\uD68C,
+    \uB300\uAE08\uACB0\uC81C, \uC7AC\uD654 \uB4F1\uC758 \uACF5\uAE09\uAE30\uB85D:
+    5\uB144 \u2014 \uC18C\uBE44\uC790 \uBD88\uB9CC \uB610\uB294 \uBD84\uC7C1\uCC98\uB9AC\uC5D0
+    \uAD00\uD55C \uAE30\uB85D : 3\uB144 \u2014 \uB300\uAE08\uACB0\uC81C \uBC0F \uC7AC\uD654
+    \uB4F1\uC758 \uACF5\uAE09\uC5D0 \uAD00\uD55C \uAE30\uB85D: 5\uB144\uD1B5\uC2E0\uBE44\uBC00\uBCF4\uD638\uBC95
+    \uC81C41\uC870\uC5D0 \uB530\uB978 \uD1B5\uC2E0\uC0AC\uC2E4\uD655\uC778\uC790\uB8CC
+    \uBCF4\uAD00 \u2014 \uCEF4\uD4E8\uD130\uD1B5\uC2E0, \uC778\uD130\uB137 \uB85C\uADF8\uAE30\uB85D\uC790\uB8CC,
+    \uC811\uC18D\uC9C0 \uCD94\uC801\uC790\uB8CC: 3\uAC1C\uC6D4\uC804\uC790\uAE08\uC735\uAC70\uB798\uBC95
+    \u2014 \uC804\uC790 \uAE08\uC735\uC5D0 \uAD00\uD55C \uAE30\uB85D: 5\uB144\n\n\uC81C5\uC870
+    \uAC1C\uC778\uC815\uBCF4\uC758 \uC81C3\uC790 \uC81C\uACF5\n\n\uD68C\uC0AC\uB294
+    \uC815\uBCF4\uC8FC\uCCB4\uC758 \uAC1C\uC778\uC815\uBCF4\uB97C \uC81C1\uC870\uC5D0\uC11C
+    \uBA85\uC2DC\uD55C \uBC94\uC704 \uB0B4\uC5D0\uC11C\uB9CC \uCC98\uB9AC\uD558\uBA70,
+    \uC6D0\uCE59\uC801\uC73C\uB85C \uC774\uB97C \uC678\uBD80\uC5D0 \uC81C\uACF5\uD558\uC9C0
+    \uC54A\uC2B5\uB2C8\uB2E4. \uD68C\uC0AC\uAC00 \uAC1C\uC778\uC815\uBCF4\uB97C \uC81C3\uC790\uC5D0\uAC8C
+    \uC81C\uACF5\uD558\uAC8C \uB420 \uACBD\uC6B0 \uD68C\uC6D0\uB4E4\uC5D0\uAC8C \uADF8
+    \uC0AC\uC2E4\uC744 \uC54C\uB9AC\uACE0 \uC774\uC5D0 \uB300\uD55C \uBCC4\uB3C4\uC758
+    \uB3D9\uC758\uB97C \uC5BB\uC73C\uBA70 \uBCF8 \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC5D0
+    \uACF5\uAC1C\uD558\uB3C4\uB85D \uD558\uACA0\uC2B5\uB2C8\uB2E4.\n\n\uC81C6\uC870
+    \uAC1C\uC778\uC815\uBCF4\uC758 \uC81C\uACF5 \uBC0F \uC704\uD0C1\n\n\uD68C\uC0AC\uB294
+    \uC815\uBCF4\uC8FC\uCCB4\uC758 \uAC1C\uC778\uC815\uBCF4\uB97C \uC6D0\uCE59\uC801\uC73C\uB85C
+    \uAC1C\uC778\uC815\uBCF4\uC758 \uCC98\uB9AC \uB4F1\uC744 \uC678\uBD80\uC5D0 \uC704\uD0C1\uD558\uC9C0
+    \uC54A\uC2B5\uB2C8\uB2E4. \uD68C\uC0AC\uAC00 \uAC1C\uC778\uC815\uBCF4\uB97C \uC81C3\uC790\uC5D0\uAC8C
+    \uC704\uD0C1\uD558\uAC8C \uB420 \uACBD\uC6B0 \uD68C\uC6D0\uB4E4\uC5D0\uAC8C \uADF8
+    \uC0AC\uC2E4\uC744 \uC54C\uB9AC\uACE0 \uC774\uC5D0 \uB300\uD55C \uBCC4\uB3C4\uC758
+    \uB3D9\uC758\uB97C \uC5BB\uC73C\uBA70 \uBCF8 \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC5D0
+    \uACF5\uAC1C\uD558\uB3C4\uB85D \uD558\uACA0\uC2B5\uB2C8\uB2E4. \uD68C\uC0AC\uB294
+    \uC704\uD0C1\uACC4\uC57D \uCCB4\uACB0\uC2DC \uAC1C\uC778\uC815\uBCF4 \uBCF4\uD638\uBC95
+    \uC81C25\uC870\uC5D0 \uB530\uB77C \uC704\uD0C1\uC5C5\uBB34 \uC218\uD589\uBAA9\uC801
+    \uC678 \uAC1C\uC778\uC815\uBCF4 \uCC98\uB9AC\uAE08\uC9C0, \uAE30\uC220\uC801\u2024\uAD00\uB9AC\uC801
+    \uBCF4\uD638\uC870\uCE58, \uC7AC\uC704\uD0C1 \uC81C\uD55C, \uC218\uD0C1\uC790\uC5D0
+    \uB300\uD55C \uAD00\uB9AC\u2024\uAC10\uB3C5, \uC190\uD574\uBC30\uC0C1 \uB4F1
+    \uCC45\uC784\uC5D0 \uAD00\uD55C \uC0AC\uD56D\uC744 \uACC4\uC57D\uC11C \uB4F1
+    \uBB38\uC11C\uC5D0 \uBA85\uC2DC\uD558\uACE0, \uC218\uD0C1\uC790\uAC00 \uAC1C\uC778\uC815\uBCF4\uB97C
+    \uC548\uC804\uD558\uAC8C \uCC98\uB9AC\uD558\uB294\uC9C0\uB97C \uAC10\uB3C5\uD558\uACA0\uC2B5\uB2C8\uB2E4.
+    \uC704\uD0C1\uC5C5\uBB34\uC758 \uB0B4\uC6A9\uC774\uB098 \uC218\uD0C1\uC790\uAC00
+    \uBCC0\uACBD\uB420 \uACBD\uC6B0\uC5D0\uB294 \uC9C0\uCCB4\uC5C6\uC774 \uBCF8 \uAC1C\uC778\uC815\uBCF4
+    \uCC98\uB9AC\uBC29\uCE68\uC744 \uD1B5\uD558\uC5EC \uACF5\uAC1C\uD558\uB3C4\uB85D
+    \uD558\uACA0\uC2B5\uB2C8\uB2E4.\n\n\uC81C7\uC870 \uAC1C\uC778\uC815\uBCF4\uC758
+    \uD30C\uAE30\n\n\uD68C\uC0AC\uB294 \uAC1C\uC778\uC815\uBCF4 \uBCF4\uC720\uAE30\uAC04\uC758
+    \uACBD\uACFC, \uCC98\uB9AC\uBAA9\uC801 \uB2EC\uC131 \uB4F1 \uAC1C\uC778\uC815\uBCF4\uAC00
+    \uBD88\uD544\uC694\uD558\uAC8C \uB418\uC5C8\uC744 \uB54C\uC5D0\uB294 \uC9C0\uCCB4\uC5C6\uC774
+    \uD574\uB2F9 \uAC1C\uC778\uC815\uBCF4\uB97C \uD30C\uAE30\uD569\uB2C8\uB2E4. \uD68C\uC6D0\uC73C\uB85C\uBD80\uD130
+    \uB3D9\uC758\uBC1B\uC740 \uAC1C\uC778\uC815\uBCF4 \uBCF4\uC720\uAE30\uAC04\uC774
+    \uACBD\uACFC\uD558\uAC70\uB098 \uCC98\uB9AC\uBAA9\uC801\uC774 \uB2EC\uC131\uB418\uC5C8\uC74C\uC5D0\uB3C4
+    \uBD88\uAD6C\uD558\uACE0 \uB2E4\uB978 \uBC95\uB839\uC5D0 \uB530\uB77C \uAC1C\uC778\uC815\uBCF4\uB97C
+    \uACC4\uC18D \uBCF4\uC874\uD558\uC5EC\uC57C \uD558\uB294 \uACBD\uC6B0\uC5D0\uB294,
+    \uD574\uB2F9 \uAC1C\uC778\uC815\uBCF4\uB97C \uBCC4\uB3C4\uC758 \uB370\uC774\uD130\uBCA0\uC774\uC2A4(DB)\uB85C
+    \uC62E\uAE30\uAC70\uB098 \uBCF4\uAD00\uC7A5\uC18C\uB97C \uB2EC\uB9AC\uD558\uC5EC
+    \uBCF4\uC874\uD569\uB2C8\uB2E4. \uAC1C\uC778\uC815\uBCF4 \uD30C\uAE30\uC758 \uC808\uCC28
+    \uBC0F \uBC29\uBC95\uC740 \uB2E4\uC74C\uACFC \uAC19\uC2B5\uB2C8\uB2E4.\uD30C\uAE30\uC808\uCC28:
+    \uD68C\uC0AC\uB294 \uD30C\uAE30 \uC0AC\uC720\uAC00 \uBC1C\uC0DD\uD55C \uAC1C\uC778\uC815\uBCF4\uB97C
+    \uC120\uC815\uD558\uACE0, \uD68C\uC0AC\uC758 \uAC1C\uC778\uC815\uBCF4 \uBCF4\uD638\uCC45\uC784\uC790\uC758
+    \uC2B9\uC778\uC744 \uBC1B\uC544 \uAC1C\uC778\uC815\uBCF4\uB97C \uD30C\uAE30\uD569\uB2C8\uB2E4.\uD30C\uAE30\uBC29\uBC95:
+    \uD68C\uC0AC\uB294 \uC804\uC790\uC801 \uD30C\uC77C \uD615\uD0DC\uB85C \uAE30\uB85D\u2024\uC800\uC7A5\uB41C
+    \uAC1C\uC778\uC815\uBCF4\uB294 \uAE30\uB85D\uC744 \uC7AC\uC0DD\uD560 \uC218 \uC5C6\uB3C4\uB85D
+    \uB85C\uC6B0\uB808\uBC38\uD3EC\uBA67(Low Level Format) \uB4F1\uC758 \uBC29\uBC95\uC744
+    \uC774\uC6A9\uD558\uC5EC \uD30C\uAE30\uD558\uBA70, \uC885\uC774 \uBB38\uC11C\uC5D0
+    \uAE30\uB85D\u2024\uC800\uC7A5\uB41C \uAC1C\uC778\uC815\uBCF4\uB294 \uBD84\uC1C4\uAE30\uB85C
+    \uBD84\uC1C4\uD558\uAC70\uB098 \uC18C\uAC01\uD558\uC5EC \uD30C\uAE30\uD569\uB2C8\uB2E4.\uD68C\uC0AC\uB294
+    \uAC1C\uC778\uC815\uBCF4 \uC720\uD6A8\uAE30\uAC04\uC81C\uC5D0 \uB530\uB77C 1\uB144\uAC04
+    \uC11C\uBE44\uC2A4\uB97C \uC774\uC6A9\uD558\uC9C0 \uC54A\uB294 \uD68C\uC6D0\uC758
+    \uAC1C\uC778\uC815\uBCF4\uB97C \uBD84\uB9AC \uBCF4\uAD00\uD569\uB2C8\uB2E4. \uB2E8
+    \uACE0\uC9C0 \uAE30\uAC04 \uB0B4 \uD68C\uC6D0\uC758 \uC774\uC758\uC81C\uAE30\uAC00
+    \uC5C6\uB294 \uACBD\uC6B0\uC5D0 \uD574\uB2F9\uD569\uB2C8\uB2E4.\n\n\uC81C8\uC870
+    \uD68C\uC6D0\uC758 \uAD8C\uB9AC.\uC758\uBB34 \uBC0F \uD589\uC0AC\uBC29\uBC95\n\n\uD68C\uC6D0
+    \uAC00\uC785\uC744 \uD1B5\uD574 \uAC1C\uC778\uC815\uBCF4\uC758 \uC218\uC9D1,
+    \uC774\uC6A9, \uC81C\uACF5\uC5D0 \uB300\uD574 \uB3D9\uC758\uD558\uC2E0 \uB0B4\uC6A9\uC744
+    \uC5B8\uC81C\uB4E0\uC9C0 \uCCA0\uD68C\uD558\uC2E4 \uC218 \uC788\uC2B5\uB2C8\uB2E4.
+    \uD68C\uC0AC\uB294 \uD68C\uC6D0 \uB610\uB294 \uD68C\uC6D0\uC758 \uBC95\uC815\uB300\uB9AC\uC778\uC774
+    \uAC1C\uC778\uC815\uBCF4\uC5D0 \uB300\uD55C \uC5F4\uB78C\xB7\uC99D\uBA85 \uB610\uB294
+    \uC815\uC815\uC744 \uC694\uCCAD\uD558\uB294 \uACBD\uC6B0\uC5D0\uB294 \uACE0\uAC1D\uC758
+    \uC694\uCCAD\uC5D0 \uC131\uC2E4\uD558\uAC8C \uB300\uC751\uD558\uBA70, \uAC1C\uC778\uC815\uBCF4\uC5D0
+    \uC624\uB958\uAC00 \uC788\uAC70\uB098 \uBCF4\uC874\uAE30\uAC04\uC744 \uACBD\uACFC\uD55C
+    \uAC83\uC774 \uD310\uBA85\uB418\uB294 \uB4F1 \uC815\uC815 \uB610\uB294 \uC0AD\uC81C\uD560
+    \uD544\uC694\uAC00 \uC788\uB2E4\uACE0 \uC778\uC815\uB418\uB294 \uACBD\uC6B0,
+    \uC9C0\uCCB4 \uC5C6\uC774 \uC870\uCE58\uD569\uB2C8\uB2E4.\uBC95\uC815\uB300\uB9AC\uC778\uC740
+    \uB9CC 14\uC138 \uBBF8\uB9CC \uC544\uB3D9\uC758 \uAC1C\uC778\uC815\uBCF4 \uC218\uC9D1\xB7\uC774\uC6A9
+    \uB610\uB294 \uC81C\uACF5\uC5D0 \uB300\uD55C \uB3D9\uC758\uB97C \uCCA0\uD68C\uD560
+    \uC218 \uC788\uC73C\uBA70, \uB9CC 14\uC138 \uBBF8\uB9CC \uC544\uB3D9\uC774 \uC81C\uACF5\uD55C
+    \uAC1C\uC778\uC815\uBCF4\uC5D0 \uB300\uD55C \uC5F4\uB78C \uB610\uB294 \uC624\uB958\uC758
+    \uC815\uC815\uC744 \uC694\uAD6C\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uC720\uC120
+    \uB610\uB294 \uC11C\uBA74\uC744 \uD1B5\uD558\uC5EC \uD68C\uC6D0 \uBCF8\uC778
+    \uB610\uB294 \uB9CC 14\uC138 \uBBF8\uB9CC \uC544\uB3D9\uC778 \uACE0\uAC1D\uC758
+    \uBC95\uC815\uB300\uB9AC\uC778\uC774 \uC5F4\uB78C, \uC99D\uBA85\uC744 \uC694\uAD6C\uD558\uB294
+    \uACBD\uC6B0\uC5D0\uB294 \uBCF8\uC778 \uD655\uC778 \uB0B4\uC9C0 \uB300\uB9AC\uAD00\uACC4\uB97C
+    \uC99D\uBA85\uD558\uB294 \uC704\uC784\uC7A5 \uBC0F \uC778\uAC10\uC99D\uBA85\uC11C,
+    \uC694\uCCAD\uC778 \uB610\uB294 \uB300\uB9AC\uC778\uC758 \uC2E0\uBD84\uC99D \uC0AC\uBCF8
+    \uB4F1\uC758 \uC99D\uD45C\uB97C \uC81C\uC2DC \uBC1B\uC544 \uC9C4\uC815\uD55C
+    \uBCF8\uC778 \uC758\uC0AC\uC640 \uB300\uB9AC\uC778 \uC5EC\uBD80\uB97C \uD655\uC778\uD569\uB2C8\uB2E4.\uD68C\uC6D0
+    \uB610\uB294 \uBC95\uC815\uB300\uB9AC\uC778\uC758 \uC694\uCCAD\uC5D0 \uC758\uD574
+    \uD574\uC9C0 \uB610\uB294 \uC0AD\uC81C, \uC815\uC815\uB41C \uAC1C\uC778\uC815\uBCF4\uB294
+    &quot;\uAC1C\uC778\uC815\uBCF4\uC758 \uBCF4\uAD00\uAE30\uAC04 \uBC0F \uC774\uC6A9\uAE30\uAC04&quot;\uC5D0
+    \uBA85\uC2DC\uB41C \uBC14\uC5D0 \uB530\uB77C \uCC98\uB9AC\uB418\uACE0, \uADF8
+    \uC678\uC758 \uC6A9\uB3C4\uB85C \uC5F4\uB78C \uB610\uB294 \uC774\uC6A9\uD560
+    \uC218 \uC5C6\uB3C4\uB85D \uCC98\uB9AC\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.
+    \uD68C\uC6D0\uC774 \uAC1C\uC778\uC815\uBCF4\uC758 \uC624\uB958 \uB4F1\uC5D0 \uB300\uD55C
+    \uC815\uC815 \uB610\uB294 \uC0AD\uC81C\uB97C \uC694\uAD6C\uD55C \uACBD\uC6B0\uC5D0\uB294
+    \uD68C\uC0AC\uB294 \uC815\uC815 \uB610\uB294 \uC0AD\uC81C\uB97C \uC644\uB8CC\uD560
+    \uB54C\uAE4C\uC9C0 \uB2F9\uD574 \uAC1C\uC778\uC815\uBCF4\uB97C \uC774\uC6A9\uD558\uAC70\uB098
+    \uC81C\uACF5\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.\n\n\uC81C9\uC870 \uAC1C\uC778\uC815\uBCF4\uBCF4\uD638\uB97C
+    \uC704\uD55C \uD68C\uC0AC\uC758 \uB178\uB825\n\n\uAD00\uB9AC\uC801 \uC870\uCE58
+    : \uB0B4\uBD80\uAD00\uB9AC\uACC4\uD68D \uC218\uB9BD\u2024\uC2DC\uD589, \uC815\uAE30\uC801
+    \uC9C1\uC6D0 \uAD50\uC721 \uB4F1\uAE30\uC220\uC801 \uC870\uCE58 : \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uC2DC\uC2A4\uD15C
+    \uB4F1\uC758 \uC811\uADFC\uAD8C\uD55C \uAD00\uB9AC, \uC811\uADFC\uD1B5\uC81C\uC2DC\uC2A4\uD15C
+    \uC124\uCE58, \uACE0\uC720 \uC2DD\uBCC4\uC815\uBCF4 \uB4F1\uC758 \uC554\uD638\uD654,
+    \uBCF4\uC548\uD504\uB85C\uADF8\uB7A8 \uC124\uCE58\uBB3C\uB9AC\uC801 \uC870\uCE58
+    : \uC804\uC0B0\uC2E4, \uC790\uB8CC\uBCF4\uAD00\uC2E4 \uB4F1\uC758 \uC811\uADFC\uD1B5\uC81C\n\n\uC81C10\uC870
+    \uBCF8 \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC758 \uC801\uC6A9\uBC94\uC704\n\n\uBCF8
+    \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC740 \uD68C\uC0AC\uC758 ARPhoto
+    \uBC0F \uAD00\uB828 \uC81C\uBC18 \uC11C\uBE44\uC2A4\uC5D0 \uC801\uC6A9\uB418\uBA70,
+    \uC11C\uBE44\uC2A4 \uB0B4 \uB9C1\uD06C\uB41C \uD0C0\uD68C\uC0AC\uC758 \uC11C\uBE44\uC2A4\uC5D0\uC11C
+    \uAC1C\uC778\uC815\uBCF4\uB97C \uC218\uC9D1\uD558\uB294 \uACBD\uC6B0\uB294 \uD574\uB2F9\uD558\uC9C0
+    \uC54A\uC2B5\uB2C8\uB2E4.\n\n\uC81C11\uC870 \uAC1C\uC778\uC815\uBCF4 \uBCF4\uD638\n\n\uCC45\uC784\uC790
+    \uBC0F \uB2F4\uB2F9\uC790 \uC548\uB0B4\uD68C\uC0AC\uB294 \uAC1C\uC778\uC815\uBCF4
+    \uCC98\uB9AC\uC5D0 \uAD00\uD55C \uC5C5\uBB34\uB97C \uCD1D\uAD04\uD558\uC5EC \uCC45\uC784\uC9C0\uACE0,
+    \uAC1C\uC778\uC815\uBCF4 \uCC98\uB9AC\uC640 \uAD00\uB828\uD55C \uC774\uC6A9\uC790\uC758
+    \uBD88\uB9CC\uCC98\uB9AC \uBC0F \uD53C\uD574\uAD6C\uC81C \uB4F1\uC744 \uC704\uD574
+    \uC544\uB798\uC640 \uAC19\uC774 \uAC1C\uC778\uC815\uBCF4 \uBCF4\uD638\uCC45\uC784\uC790
+    \uBC0F \uB2F4\uB2F9\uBD80\uC11C\uB97C \uC9C0\uC815 \uC6B4\uC601\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.\uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uCC45\uC784\uC790\uC870\uC131\uD76C
+    / \uCF54\uD39C\uAE00\uB85C\uBC8C \uB300\uD45C / \uC774\uBA54\uC77C: happi12@hanmail.net
+    / \uC804\uD654: 070-4348-4385\uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uB2F4\uB2F9\uC790\uC870\uC131\uD76C
+    / \uCF54\uD39C\uAE00\uB85C\uBC8C \uB300\uD45C / \uC774\uBA54\uC77C: happi12@hanmail.net
+    / \uC804\uD654: 070-4348-4385\uC774\uC6A9\uC790\uB294 \uD68C\uC0AC\uC758 \uC11C\uBE44\uC2A4
+    \uC774\uC6A9 \uC2DC \uBC1C\uC0DD\uD55C \uBAA8\uB4E0 \uAC1C\uC778\uC815\uBCF4\uAD00\uB828
+    \uBB38\uC758, \uBD88\uB9CC\uCC98\uB9AC, \uD53C\uD574\uAD6C\uC81C \uB4F1\uC5D0
+    \uB300\uD558\uC5EC \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uB2F4\uB2F9\uC790 \uBC0F
+    \uB2F4\uB2F9\uBD80\uC11C\uB85C \uBB38\uC758\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC81C12\uC870
+    \uAD8C\uC775\uCE68\uD574 \uAD6C\uC81C\uBC29\uBC95\n\n\uD68C\uC6D0\uC740 \uC544\uB798\uC758
+    \uAE30\uAD00\uC5D0 \uB300\uD574 \uAC1C\uC778\uC815\uBCF4 \uCE68\uD574\uC5D0 \uB300\uD55C
+    \uD53C\uD574\uAD6C\uC81C, \uC0C1\uB2F4 \uB4F1\uC744 \uBB38\uC758\uD558\uC2E4
+    \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uC544\uB798\uC758 \uAE30\uAD00\uC740 \uD68C\uC0AC\uC640\uB294
+    \uBCC4\uAC1C\uC758 \uAE30\uAD00\uC73C\uB85C\uC11C, \uD68C\uC0AC\uC758 \uC790\uCCB4\uC801\uC778
+    \uAC1C\uC778\uC815\uBCF4 \uBD88\uB9CC\uCC98\uB9AC, \uD53C\uD574\uAD6C\uC81C \uACB0\uACFC\uC5D0
+    \uB9CC\uC871\uD558\uC9C0 \uBABB\uD558\uC2DC\uAC70\uB098 \uBCF4\uB2E4 \uC790\uC138\uD55C
+    \uB3C4\uC6C0\uC774 \uD544\uC694\uD558\uC2DC\uBA74 \uBB38\uC758\uD558\uC5EC \uC8FC\uC2DC\uAE30
+    \uBC14\uB78D\uB2C8\uB2E4\uAC1C\uC778\uC815\uBCF4 \uCE68\uD574\uC2E0\uACE0\uC13C\uD130
+    (\uD55C\uAD6D\uC778\uD130\uB137\uC9C4\uD765\uC6D0 \uC6B4\uC601) \u2014 \uC18C\uAD00\uC5C5\uBB34:
+    \uAC1C\uC778\uC815\uBCF4 \uCE68\uD574\uC0AC\uC2E4 \uC2E0\uACE0, \uC0C1\uB2F4
+    \uC2E0\uCCAD \u2014 \uD648\uD398\uC774\uC9C0: privacy.kisa.or.kr \u2014 \uC804\uD654:
+    (\uAD6D\uBC88\uC5C6\uC774) 118 \u2014 \uC8FC\uC18C: (58324) \uC804\uB0A8 \uB098\uC8FC\uC2DC
+    \uC9C4\uD765\uAE38 9 (\uBE5B\uAC00\uB78C\uB3D9 301-2) 3\uCE35 \uAC1C\uC778\uC815\uBCF4\uCE68\uD574\uC2E0\uACE0\uC13C\uD130\uAC1C\uC778\uC815\uBCF4
+    \uBD84\uC7C1\uC870\uC815\uC704\uC6D0\uD68C \u2014 \uC18C\uAD00\uC5C5\uBB34: \uAC1C\uC778\uC815\uBCF4
+    \uBD84\uC7C1\uC870\uC815\uC2E0\uCCAD, \uC9D1\uB2E8\uBD84\uC7C1\uC870\uC815 (\uBBFC\uC0AC\uC801
+    \uD574\uACB0) \u2014 \uD648\uD398\uC774\uC9C0: www.kopico.go.kr \u2014 \uC804\uD654:
+    (\uAD6D\uBC88\uC5C6\uC774) 118 \u2014 \uC8FC\uC18C: (03171)\uC11C\uC6B8\uD2B9\uBCC4\uC2DC
+    \uC885\uB85C\uAD6C \uC138\uC885\uB300\uB85C 209 \uC815\uBD80\uC11C\uC6B8\uCCAD\uC0AC
+    4\uCE35\uB300\uAC80\uCC30\uCCAD \uC0AC\uC774\uBC84 \uBC94\uC8C4\uC218\uC0AC\uB2E8
+    : 02-3480-3573 (www.spo.go.kr)\uACBD\uCC30\uCCAD \uC0AC\uC774\uBC84\uD14C\uB7EC
+    \uB300\uC751\uC13C\uD130 : 1566-0112 (www.netan.go.kr)\n\n\uC81C13\uC870 \uAC1C\uC815
+    \uC804 \uACE0\uC9C0 \uC758\uBB34\n\n\uD604\uD589 \uAC1C\uC778\uC815\uBCF4\uCC98\uB9AC\uBC29\uCE68\uC5D0
+    \uB300\uD55C \uB0B4\uC6A9 \uCD94\uAC00, \uC0AD\uC81C \uBC0F \uC218\uC815\uC774
+    \uC788\uC744 \uC2DC\uC5D0\uB294 \uAC1C\uC815 \uCD5C\uC18C 7\uC77C \uC804\uBD80\uD130
+    \uD648\uD398\uC774\uC9C0\uC758 '\uACF5\uC9C0\uC0AC\uD56D'\uC744 \uD1B5\uD574
+    \uBCC0\uACBD\uC774\uC720 \uBC0F \uADF8 \uB0B4\uC6A9\uC744 \uACE0\uC9C0\uD569\uB2C8\uB2E4.
+    \uB2E4\uB9CC, \uAC1C\uC778\uC815\uBCF4\uC758 \uC218\uC9D1 \uBC0F \uD65C\uC6A9
+    \uB4F1\uC5D0 \uC788\uC5B4 \uC774\uC6A9\uC790 \uAD8C\uB9AC\uC758 \uC911\uC694\uD55C
+    \uBCC0\uACBD\uC774 \uC788\uC744 \uACBD\uC6B0\uC5D0\uB294 \uCD5C\uC18C 30\uC77C
+    \uC804\uC5D0 \uACE0\uC9C0\uD569\uB2C8\uB2E4.\n\n\uBD80\uCE59\n\n\uC774 \uC57D\uAD00\uC740
+    2020\uB144 3\uC6D4 12\uC77C\uBD80\uD130 \uD6A8\uB825\uC774 \uBC1C\uC0DD\uD569\uB2C8\uB2E4.\n\n\n\n\n\n."
+--- !u!114 &8945654626823218555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626823218549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!1 &8945654626919791108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626919791109}
+  - component: {fileID: 8945654626919791112}
+  - component: {fileID: 8945654626919791115}
+  - component: {fileID: 8945654626919791113}
+  m_Layer: 5
+  m_Name: TermsOfUse Page
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626919791109
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626919791108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654626210092014}
+  - {fileID: 8945654626211766093}
+  - {fileID: 8945654627354534642}
+  - {fileID: 8945654626193646515}
+  - {fileID: 8945654627960964278}
+  - {fileID: 8945654627692710443}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -3119, y: 2277}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8945654626919791112
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626919791108}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654626919791115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626919791108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8945654626919791113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626919791108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f52df847309f4cdcb223d73b0c3402b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _windowName: TermsOfUse
+  _transitionOnOpen: 0
+  _transitionOnClose: 0
+  _transitionOnBackground: 0
+  _transitionOnForeground: 0
+  _transitionIn: 0
+  _transitionOut: 0
+  _popStackOnBackground: 0
+  _doNotHideViewOnBackground: 0
+  _isModalView: 0
+  _closeOnBackButton: 1
+  _exitButton: {fileID: 8945654626193646512}
+  _toggle: {fileID: 8945654627692710440}
+--- !u!1 &8945654626965982682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654626965982683}
+  - component: {fileID: 8945654626965982681}
+  - component: {fileID: 8945654626965982680}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654626965982683
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626965982682}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654627701165996}
+  m_Father: {fileID: 8945654627692710443}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 10, y: -10}
+  m_SizeDelta: {x: 100, y: 96}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8945654626965982681
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626965982682}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654626965982680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654626965982682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6fd5429ff44954ae0b9dbd44c1ebd7a6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8945654627246231857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654627246231862}
+  - component: {fileID: 8945654627246231860}
+  - component: {fileID: 8945654627246231863}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654627246231862
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627246231857}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945654626211766093}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 800, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8945654627246231860
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627246231857}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654627246231863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627246231857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7f1d33be964ce44488d20d32588eb8ad, type: 3}
+    m_FontSize: 72
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 7
+    m_MaxSize: 84
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uC0AC\uC6A9\uC790 \uC57D\uAD00 \uB3D9\uC758"
+--- !u!1 &8945654627354534605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654627354534642}
+  - component: {fileID: 8945654627354534640}
+  - component: {fileID: 8945654627354534643}
+  m_Layer: 5
+  m_Name: Logo Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &8945654627354534642
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627354534605}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945654626919791109}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -150}
+  m_SizeDelta: {x: 301, y: 46}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &8945654627354534640
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627354534605}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654627354534643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627354534605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d1daabf28f2f8455fad0ee625846ce22, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8945654627380780369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654627380780374}
+  - component: {fileID: 8945654627380780375}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654627380780374
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627380780369}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654626823218554}
+  m_Father: {fileID: 8945654628184144777}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 40, y: 0}
+  m_SizeDelta: {x: -80, y: 28615}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &8945654627380780375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627380780369}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 1
+--- !u!1 &8945654627589205467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654627589205464}
+  - component: {fileID: 8945654627589205470}
+  - component: {fileID: 8945654627589205465}
+  m_Layer: 5
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654627589205464
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627589205467}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945654627692710443}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 390, y: 0}
+  m_SizeDelta: {x: 400, y: 100}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!222 &8945654627589205470
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627589205467}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654627589205465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627589205467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7f1d33be964ce44488d20d32588eb8ad, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uC57D\uAD00\uC5D0 \uB3D9\uC758\uD569\uB2C8\uB2E4"
+--- !u!1 &8945654627692710442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654627692710443}
+  - component: {fileID: 8945654627692710440}
+  m_Layer: 5
+  m_Name: Toggle (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654627692710443
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627692710442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654626965982683}
+  - {fileID: 8945654627589205464}
+  m_Father: {fileID: 8945654626919791109}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -117, y: 202}
+  m_SizeDelta: {x: 160, y: 20}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &8945654627692710440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627692710442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8945654626965982680}
+  toggleTransition: 1
+  graphic: {fileID: 8945654627701165997}
+  m_Group: {fileID: 0}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_IsOn: 0
+--- !u!1 &8945654627701165999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654627701165996}
+  - component: {fileID: 8945654627701165906}
+  - component: {fileID: 8945654627701165997}
+  m_Layer: 5
+  m_Name: Checkmark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654627701165996
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627701165999}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945654626965982683}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 96}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8945654627701165906
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627701165999}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654627701165997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627701165999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9de09837d9d6943058cca2efaecabbe6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8945654627960964273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654627960964278}
+  - component: {fileID: 8945654627960964277}
+  - component: {fileID: 8945654627960964276}
+  - component: {fileID: 8945654627960964279}
+  m_Layer: 5
+  m_Name: Scroll View (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654627960964278
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627960964273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654628184144777}
+  - {fileID: 8945654626444758333}
+  m_Father: {fileID: 8945654626919791109}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -80, y: -800}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8945654627960964277
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627960964273}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654627960964276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627960964273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8945654627960964279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654627960964273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 8945654627380780374}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 8945654628184144777}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 8945654626444758306}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &8945654628086504810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654628086504811}
+  - component: {fileID: 8945654628086504809}
+  - component: {fileID: 8945654628086504808}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654628086504811
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654628086504810}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945654626193646515}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 300, y: 240}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8945654628086504809
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654628086504810}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654628086504808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654628086504810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!1 &8945654628184144776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8945654628184144777}
+  - component: {fileID: 8945654628184144780}
+  - component: {fileID: 8945654628184144783}
+  - component: {fileID: 8945654628184144782}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8945654628184144777
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654628184144776}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8945654627380780374}
+  m_Father: {fileID: 8945654627960964278}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &8945654628184144780
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654628184144776}
+  m_CullTransparentMesh: 0
+--- !u!114 &8945654628184144783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654628184144776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8945654628184144782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945654628184144776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
