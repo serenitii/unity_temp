@@ -36,6 +36,25 @@ namespace PhotoAr
 
             return list;
         }
+
+        private void CreatePrefab(string cardName, ARTrackedImage item)
+        {
+            if (!_instantiatedPrefabs.ContainsKey(cardName))
+            {
+                // Found a corresponding prefab for the reference image, and it has not been instantiated yet
+                // -> new instance, with the ARTrackedImage as parent (so it will automatically get updated
+                // when the marker changes in real-life)
+                var newPrefab = Instantiate(_arPlaneContainerPrefab, item.transform);
+                _instantiatedPrefabs[cardName] = newPrefab;
+                _instantiatedCount[cardName] = 0;
+
+                Debug.LogFormat("OnTrackedImagesChange.Added size({0}) extents({1}) ", item.size, item.extents);
+                    
+                CardData card = APP.Data.GetCardByName(cardName);
+                newPrefab.GetComponent<ArPlaceContainer>().InitOnAdded(card, item);
+            }
+        }
+        
         private void OnTrackedImagesChange(ARTrackedImagesChangedEventArgs args)
         {
             // Good reference: https://forum.unity.com/threads/arfoundation-2-image-tracking-with-many-ref-images-and-many-objects.680518/#post-4668326
@@ -49,19 +68,7 @@ namespace PhotoAr
 
                 var cardName = item.referenceImage.name;
                 if (!_instantiatedPrefabs.ContainsKey(cardName))
-                {
-                    // Found a corresponding prefab for the reference image, and it has not been instantiated yet
-                    // -> new instance, with the ARTrackedImage as parent (so it will automatically get updated
-                    // when the marker changes in real-life)
-                    var newPrefab = Instantiate(_arPlaneContainerPrefab, item.transform);
-                    _instantiatedPrefabs[cardName] = newPrefab;
-                    _instantiatedCount[cardName] = 0;
-
-                    Debug.LogFormat("OnTrackedImagesChange.Added size({0}) extents({1}) ", item.size, item.extents);
-                    
-                    CardData card = APP.Data.GetCardByName(cardName);
-                    newPrefab.GetComponent<ArPlaceContainer>().InitOnAdded(card, item);
-                }
+                    CreatePrefab(cardName, item);
             }
 
             // Disable instantiated prefabs that are no longer being actively tracked
@@ -86,20 +93,24 @@ namespace PhotoAr
                 if (_instantiatedPrefabs[item.referenceImage.name].activeInHierarchy != isActive)
                     _instantiatedPrefabs[item.referenceImage.name].SetActive(isActive);
 #else
+                var cardName = item.referenceImage.name;
+                if (!_instantiatedPrefabs.ContainsKey(cardName))
+                    CreatePrefab(cardName, item);
+                
                 var isTracking = item.trackingState == TrackingState.Tracking;
                 if (isTracking)
                 {
-                    _instantiatedCount[item.referenceImage.name] = _instantiatedCount[item.referenceImage.name] + 1;
+                    _instantiatedCount[cardName] = _instantiatedCount[item.referenceImage.name] + 1;
                     
-                    if (_instantiatedCount[item.referenceImage.name] > 2)
-                        _instantiatedPrefabs[item.referenceImage.name].SetActive(true);
+                    if (_instantiatedCount[cardName] > 2)
+                        _instantiatedPrefabs[cardName].SetActive(true);
                 }
                 else
                 {
-                    _instantiatedCount[item.referenceImage.name] = 0;
+                    _instantiatedCount[cardName] = 0;
                     
-                    _instantiatedPrefabs[item.referenceImage.name].GetComponent<ArPlaceContainer>().StopVideo();
-                    _instantiatedPrefabs[item.referenceImage.name].SetActive(false);
+                    _instantiatedPrefabs[cardName].GetComponent<ArPlaceContainer>().StopVideo();
+                    _instantiatedPrefabs[cardName].SetActive(false);
                 }
                 
                 // if (!isTracking)
